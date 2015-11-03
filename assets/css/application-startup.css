@@ -29,6 +29,13 @@
 .extra-margin {
     margin-top: 2em;
 }
+
+iframe,
+object,
+embed {
+    max-width: 100%;
+    max-height: 100%;
+}
 /* navbar */
 
 .app-navbar {
