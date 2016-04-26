@@ -1,7 +1,10 @@
 <!DOCTYPE html>
-
-
-<html lang="en">
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
 
 <head>
     <meta charset="utf-8">
@@ -11,208 +14,208 @@
     <meta name="keywords" content="Tagup, Internet of Things, Industrial Internet, Connected Products, Mobile Enterprise">
     <meta name="author" content="Team Tagup">
 
-    <title>
+    <title>tagup | Industrial Internet Platform</title>
 
-        Tagup, Inc.
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/red.css" />
 
-    </title>
+    <link rel="stylesheet" href="css/toolkit-startup.css" />
+    <link rel="stylesheet" href="css/custom.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
 
-
-    <link href='https://fonts.googleapis.com/css?family=Lora:400,400italic|Work+Sans:300,400,500,600' rel='stylesheet' type='text/css'>
-    <link href="assets/css/toolkit-startup.css" rel="stylesheet">
-    <link href="assets/css/application-startup.css" rel="stylesheet">
-    <link rel="shortcut icon" type="image/ico" href="assets/img/favicon.ico" />
-
-
-
-
-
-
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,300' rel='stylesheet' type='text/css'>
+    <link rel="shortcut icon" type="image/ico" href="favicon.ico" />
 </head>
 
+<body data-spy="scroll" data-target=".navbar-fixed-top">
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
 
-<body>
-
-
-
-
-    <div class="stage-shelf stage-shelf-right hidden" id="sidebar">
-        <ul class="nav nav-bordered nav-stacked">
-            <li class="nav-header">Navigation</li>
-            <li class="active">
-                <a href="about.html">About</a>
-            </li>
-            <li>
-                <a href="jobs.html">Jobs</a>
-            </li>
-            <li>
-                <a href="contact.html">Contact</a>
-            </li>
-            <li class="nav-divider"></li>
-            <li class="nav-header">Application</li>
-            <li>
-                <a href="http://app.tagup.io/sessions/new">Sign In</a>
-            </li>
-            <li>
-                <a href="mailto:support@tagup.io">Support</a>
-            </li>
-        </ul>
-    </div>
-
-    <div class="stage" id="stage">
-
-        <nav class="navbar navbar-fixed-top navbar-padded app-navbar p-t-md">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed p-x-0" data-target="#stage" data-toggle="stage" data-distance="-250">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar" style="background-color:gray"></span>
-                        <span class="icon-bar" style="background-color:gray"></span>
-                        <span class="icon-bar" style="background-color:gray"></span>
-                    </button>
-                    <a class="pull-left navbar-logo" href="index.html">
-                        <img src="assets/img/tagup-image-white.png" height="55px">
-                    </a>
-                </div>
-                <div class="navbar-collapse collapse text-uppercase">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li>
-                            <a class="inverse-color" href="about.html">About</a>
-                        </li>
-                        <li>
-                            <a class="inverse-color" href="jobs.html">Jobs</a>
-                        </li>
-                        <li>
-                            <a class="inverse-color" href="contact.html">Contact</a>
-                        </li>
-                        <li>
-                            <a class="btn btn-primary-outline" href="http://app.tagup.io/sessions/new">Sign In</a>
-                        </li>
-                    </ul>
-                </div>
-                <!--/.nav-collapse -->
-            </div>
-        </nav>
-
-
-
-
-        <div class="block block-secondary">
-            <div class="container">
-                <div class="row app-align-center extra-margin">
-
-                    <div class="col-sm-6">
-                        <h6 class="text-muted text-uppercase">About Tagup</h6>
-                        <h3 class="m-t-0">Reinventing the way businesses track their products.</h3>
-                        <p class="lead m-b-md">Our mission is to provide a web interface between manufacturers, value-added resellers, and their customers. Founded in 2015 at MIT, we've worked night and day over the past year to build a solution transforming the way asset data is tracked and shared.
-                        </p>
-                    </div>
-
-                    <div class="col-sm-6">
-                        <img class="img-rounded img-responsive center-block" src="assets/img/schematic.png">
-                    </div>
-
-                </div>
-
-                <hr>
-                <div class="row">
-                    <div class="col-sm-12">
-                        <h4 class="text-muted text-uppercase">Management Team</h4>
-                        <br>
-                    </div>
-                </div>
-                <div class="row">
-
-                    <div class="col-sm-2">
-                        <img class="img-responsive img-rounded" src="assets/img/jon.png" style="max-height:125px">
-                    </div>
-                    <div class="col-sm-6">
-                        <h4>Jon Garrity <small class="text-muted">Founder &amp; CEO</small></h4>
-                        <p>Jon's background is in industrial information systems. Prior to Tagup, he worked at GE Energy in Atlanta. His first role at GE was as a software product manager on the Grid IQ product line. In this role he was responsible for working with a development team of over twenty engineers in Atlanta, San Ramon, and Shanghai to build analytics applications for electric utilities. In his most recent role at GE, he worked as fulfillment lead on a joint venture with a Chinese high voltage equipment manufacturer.</p>
-                        <p>Before GE, Jon studied physics and economics at MIT. After GE, he earned his MBA from Harvard Business School. He is the principal inventor on one granted and several pending patents.
-                        </p>
-                        <br>
-
-                    </div>
-
-                </div>
-                <div class="row">
-                    <br>
-                    <div class="col-sm-2">
-                        <img class="img-responsive img-rounded" src="assets/img/will.png" style="max-height:125px">
-                    </div>
-                    <div class="col-sm-6">
-                        <h4>Will Vega-Brown <small class="text-muted">Founder &amp; CTO</small></h4>
-                        <p>Will is a fourth year PhD candidate in the Computer Science and Artificial Intelligence Laboratory (CSAIL) at MIT, working in machine learning and artificial intelligence. His research focuses on ways to ground symbolic planning in the real world, and involves software engineering from microcontrollers through high-level web programming.</p>
-                        <p>Prior to beginning graduate studies, he completed his undergraduate studies at MIT, majoring in physics and mechanical engineering. Outside of work, Will is a jiu-jitsu black belt and sensei.</p>
-                        <br>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </div>
-
-    <div class="block block-inverse app-footer">
+    <header id="header" class="navbar-fixed-top navbar-inverse video-menu" role="banner">
         <div class="container">
-            <div class="row">
-                <div class="col-sm-5 m-b-md">
-                    <ul class="list-unstyled list-spaced">
-                        <li class="m-b">
-                            <h6 class="text-uppercase">About</h6>
-                        </li>
-                        <li class="text-muted">
-                            At Tagup, we’re helping industrial companies connect their products to the Internet. If you’d like to learn more, or are interested in a job, contact us anytime at <a href="mailto: hello@tagup.io">hello@tagup.io</a>.
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-sm-2 col-sm-offset-1 m-b-md">
-                    <ul class="list-unstyled list-spaced">
-                        <li class="m-b">
-                            <h6 class="text-uppercase">Solution</h6>
-                        </li>
-                        <li><a class="text-muted" href="demo.html">Demo Request</a>
-                        </li>
-                        <li><a class="text-muted" href="http://app.tagup.io/sessions/new">Sign In</a>
-                        </li>
-                        <li><a class="text-muted" href="mailto:support@tagup.io">Support</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-sm-2 m-b-md">
-                    <ul class="list-unstyled list-spaced">
-                        <li class="m-b">
-                            <h6 class="text-uppercase">Company</h6>
-                        </li>
-                        <li><a class="text-muted" href="about.html">About</a>
-                        </li>
-                        <li><a class="text-muted" href="jobs.html">Careers</a>
-                        </li>
-                        <li><a class="text-muted" href="contact.html">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-sm-2 m-b-md">
-                    <ul class="list-unstyled list-spaced">
-                        <li class="m-b">
-                            <h6 class="text-uppercase">Legal</h6>
-                        </li>
-                        <li><a class="text-muted" href="terms.html">Terms</a>
-                        </li>
-                        <li><a class="text-muted" href="privacy.html">Privacy</a>
-                        </li>
+            <!-- <div class="row"> -->
+            <div class="navbar-header ">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/tagup-simple.png" alt="" class="img-responsive">
+                </a>
+            </div>
+            <!--Navbar header End-->
+            <nav class="collapse navbar-collapse navigation" id="bs-example-navbar-collapse-1" role="navigation">
+                <ul class="nav navbar-nav navbar-right ">
+                    <!--<li class="active"> <a href="#home" class="page-scroll">Home </a></li>
+                            <li><a href="#service" class="page-scroll" >Features</a> </li>
+                            <li><a href="#about" class="page-scroll">About Us </a> </li>-->
+                    <li><a href="http://cloud.tagup.io/login" class="page-scroll">Log In</a> </li>
+                </ul>
+            </nav>
+        </div>
+        <!-- /.container-fluid -->
+    </header>
+    <!-- Slider start -->
+    <div class="block block-secondary">
+        <div class="container">
+            <div class="row app-align-center extra-margin">
 
-                    </ul>
+                <div class="col-sm-6">
+                    <h6 class="text-muted text-uppercase">About Tagup</h6>
+                    <h3 class="m-t-0">Reinventing the way businesses track their products.</h3>
+                    <p class="lead m-b-md">Our mission is to provide a web interface between manufacturers, value-added resellers, and their customers. Founded in 2015 at MIT, we've worked night and day over the past year to build a solution transforming the way asset data is tracked and shared.
+                    </p>
+                </div>
+
+                <div class="col-sm-6">
+                    <img class="img-rounded img-responsive center-block" src="images/diagram.png">
+                </div>
+
+            </div>
+
+            <hr>
+            <div class="row">
+                <div class="col-sm-12">
+                    <h4 class="text-muted text-uppercase">Management Team</h4>
+                    <br>
+                </div>
+            </div>
+            <div class="row">
+
+                <div class="col-sm-2">
+                    <img class="img-responsive img-rounded" src="images/jon.png" style="max-height:125px">
+                </div>
+                <div class="col-sm-6">
+                    <h4>Jon Garrity <small class="text-muted">Founder &amp; CEO</small></h4>
+                    <p>Jon's background is in industrial information systems. Prior to Tagup, he worked at GE Energy in Atlanta. His first role at GE was as a software product manager on the Grid IQ product line. In this role he was responsible for working with a development team of over twenty engineers in Atlanta, San Ramon, and Shanghai to build analytics applications for electric utilities. In his most recent role at GE, he worked as fulfillment lead on a joint venture with a Chinese high voltage equipment manufacturer.</p>
+                    <p>Before GE, Jon studied physics and economics at MIT. After GE, he earned his MBA from Harvard Business School. He is the principal inventor on one granted and several pending patents.
+                    </p>
+                    <br>
+
+                </div>
+
+            </div>
+            <div class="row">
+                <br>
+                <div class="col-sm-2">
+                    <img class="img-responsive img-rounded" src="images/will.png" style="max-height:125px">
+                </div>
+                <div class="col-sm-6">
+                    <h4>Will Vega-Brown <small class="text-muted">Founder &amp; CTO</small></h4>
+                    <p>Will is a fourth year PhD candidate in the Computer Science and Artificial Intelligence Laboratory (CSAIL) at MIT, working in machine learning and artificial intelligence. His research focuses on ways to ground symbolic planning in the real world, and involves software engineering from microcontrollers through high-level web programming.</p>
+                    <p>Prior to beginning graduate studies, he completed his undergraduate studies at MIT, majoring in physics and mechanical engineering. Outside of work, Will is a jiu-jitsu black belt and sensei.</p>
+                    <br>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-sm-12">
+                    <h4 class="text-muted text-uppercase">Industry Advisory Board</h4>
+                    <br>
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="col-sm-2">
+                    <img class="img-responsive img-rounded bio-photos" src="images/jmd.jpg" style="max-height:125px">
+                </div>
+                <div class="col-sm-6">
+                    <h4>John McDonald <small class="text-muted">Smart Grid Business Development Leader, GE Grid Solutions</small></h4>
+                    <p>John D. McDonald, P.E., is SmartGrid Business Development Leader - North America for GE Grid Solutions Global SmartGrid Strategy Group.</p>
+                    <p>John received his BSEE and MSEE (Power Engineering) degrees from Purdue University, and an MBA degree from the University of California-Berkeley. John is a Fellow of IEEE, and was awarded the IEEE Millennium Medal in 2000, the IEEE PES (Power &amp; Energy Society) Excellence in Power Distribution Engineering Award in 2002, the IEEE PES Substations Committee Distinguished Service Award in 2003 and the IEEE PES Meritorious Service Award in 2015.
+                    </p>
+                    <br>
+
+                </div>
+
+            </div>
+            <div class="row">
+                <br>
+                <div class="col-sm-2">
+                    <img class="img-responsive img-rounded" src="images/tmg.jpg" style="max-height:125px">
+                </div>
+                <div class="col-sm-6">
+                    <h4>Tony McGrail <small class="text-muted">Solutions Director, Doble Engineering</small></h4>
+                    <p>Chartered Engineer and member of IEEE, IET , CIGRE and IAM.</p>
+                    <p>Responsible for on line monitoring solutions, IDD, Doble Delphi, PD and strategic input for the ARMS initiative.</p>
+                    <br>
                 </div>
             </div>
         </div>
+
     </div>
+    <!-- Footer Area Start -->
+
+    <section id="footer">
+        <div class="footer_b">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="footer_mid text-block footer_menu">
+                            <ul class="list-inline">
+                                <li>
+                                    <span> &copy; 2016 Tagup, Inc.</span>
+                                </li>
+                                <li>
+                                    <span>|</span>
+                                </li>
+                                <li><i class="fa fa-phone"></i>
+                                    <span><a href="tel:+16178041401">+1 (617) 804-1401</a></span>
+                                </li>
+                                <li>
+                                    <span>|</span>
+                                </li>
+                                <li><i class="fa fa-envelope"></i>
+                                    <span><a href="mailto:hello@tagup.io"> hello@tagup.io</a></span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="footer_mid pull-right">
+                            <ul class="social-contact list-inline">
+                                <li> <a href="https://angel.co/tagup-io"><i class="fa fa-angellist"></i></a>
+                                </li>
+                                <li> <a href="https://twitter.com/hello_tagup"><i class="fa fa-twitter"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer Area End -->
+
+    <!-- Javascript Files
+    ================================================== -->
+    <!-- initialize jQuery Library -->
+
+    <!-- initialize jQuery Library -->
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <!-- Bootstrap jQuery -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <!-- Isotope -->
+    <script src="js/jquery.isotope.js"></script>
+    <!-- SmoothScroll -->
+    <script type="text/javascript" src="js/smooth-scroll.js"></script>
+    <!-- Counter  -->
+    <script type="text/javascript" src="js/jquery.counterup.min.js"></script>
+    <script type="text/javascript" src="js/waypoints.min.js"></script>
+    <script type="text/javascript" src="js/jquery.scrollTo.js"></script>
+    <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+    <!-- PrettyPhoto -->
+    <script src="js/jquery.singlePageNav.js"></script>
+    <!-- Custom js -->
+    <script src="js/custom.js"></script>
 
 
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/toolkit.js"></script>
-    <script src="assets/js/application.js"></script>
-    <script src="assets/js/jquery.vide.min.js"></script>
 </body>
 
 </html>

@@ -1,263 +1,332 @@
 <!DOCTYPE html>
-
-
-<html lang="en">
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Tagup Inc. Website">
-    <meta name="keywords" content="Tagup, Internet of Things, Industrial Internet, Connected Products, Mobile Enterprise">
-    <meta name="author" content="Team Tagup">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Tagup Inc. Website">
+	<meta name="keywords" content="Tagup, Internet of Things, Industrial Internet, Connected Products, Mobile Enterprise">
+	<meta name="author" content="Team Tagup">
 
-    <title>
+	<title>tagup | Industrial Internet Platform</title>
 
-        Tagup, Inc.
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/red.css" />
 
-    </title>
+	<link rel="stylesheet" href="css/toolkit-startup.css" />
+	<link rel="stylesheet" href="css/custom.css" />
+	<link rel="stylesheet" href="css/responsive.css" />
 
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css" rel="stylesheet">
-    <link href='https://fonts.googleapis.com/css?family=Lora:400,400italic|Work+Sans:300,400,500,600' rel='stylesheet' type='text/css'>
-    <link href="assets/css/toolkit-startup.css" rel="stylesheet">
-    <link href="assets/css/application-startup.css" rel="stylesheet">
-    <link rel="shortcut icon" type="image/ico" href="assets/img/favicon.ico" />
-
-
-
-
-
-
+	<link href='http://fonts.googleapis.com/css?family=Lato:400,300' rel='stylesheet' type='text/css'>
+	<link rel="shortcut icon" type="image/ico" href="favicon.ico" />
 </head>
 
+<body data-spy="scroll" data-target=".navbar-fixed-top">
+	<!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
 
-<body>
+	<header id="header" class="navbar-fixed-top navbar-inverse video-menu" role="banner">
+		<div class="container">
+			<!-- <div class="row"> -->
+			<div class="navbar-header ">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">
+					<img src="images/tagup-simple.png" alt="" class="img-responsive">
+				</a>
+			</div>
+			<!--Navbar header End-->
+			<nav class="collapse navbar-collapse navigation" id="bs-example-navbar-collapse-1" role="navigation">
+				<ul class="nav navbar-nav navbar-right ">
+					<!--<li class="active"> <a href="#home" class="page-scroll">Home </a></li>
+                            <li><a href="#service" class="page-scroll" >Features</a> </li>
+                            <li><a href="#about" class="page-scroll">About Us </a> </li>-->
+					<li><a href="#contact" class="page-scroll">Request Demo</a> </li>
+					<li><a href="http://cloud.tagup.io/" class="page-scroll">Log In</a> </li>
+				</ul>
+			</nav>
+		</div>
+		<!-- /.container-fluid -->
+	</header>
+	<!-- Slider start -->
+	<section id="home" class="hero landing hero-section">
+		<div class="video-background-container fullscreen-bg">
+			<video preload="auto" autoplay loop muted class="fullscreen-bg__video">
+				<source type="video/mp4" src="videos/tagup-background.mp4" />
+				<source type="video/webm" src="videos/tagup-background.webm" />
+			</video>
+		</div>
+
+		<div class="parallax-overlay"></div>
+
+		<div class="container">
+			<div class="col-md-12">
+				<div class="hero-content text-center">
+					<div class="hero-text">
+						<h3 class="hero-title lead">Our mission: <span>zero unplanned downtime</span></h3>
+						<p class="hero-description">Tagup connects your products to the internet securely, so you can monitor them remotely, predict failures before they occur, and provide an unprecedented level of support to your end customers.</p>
+						<p class="hero-buttons">
+							<!--<a href="#" class="btn btn-dark">
+                            <strong>Learn More </strong> </i>
+                        </a>-->
+							<a href="#contact" class="btn btn-main featured page-scroll">
+								<strong>Schedule a Platform Demo</strong> </i>
+							</a>
+
+						</p>
+					</div>
+					<!--/ Hero text end -->
+				</div>
+				<!--/ Hero content end -->
+			</div>
+		</div>
+		<!--/ Container end -->
+	</section>
+	<!--/ Home end -->
+
+	<!-- Video Overview start -->
+
+	<section id="video-fact">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2">
+					<div class="feature_header text-center">
+						<h6 class="text-muted text-uppercase">Welcome to the Industrial Internet</h6>
+						<h3 class="m-t-0">Tagup is the first end-to-end Industrial Internet solution for the power and electric utility industry.</h3>
+						<hr>
+					</div>
+				</div>
+				<!-- Col-md-12 End -->
+			</div>
+			<div class="row">
+				<div class="col-sm-10 col-sm-offset-1 contact_full left p-x-md m-b-lg">
+					<video class="img-responsive" poster="images/new-poster.png" onclick="this.play();" preload="auto" controls>
+						<source src="videos/tagup.mp4" type="video/mp4; codecs=H.264,AAC">
+							<source src="videos/tagup.webm" type="video/webm; codecs=vp8,vorbis">
+								<source src="videos/tagup.ogv" type="video/ogg; codecs=theora,vorbis">
+					</video>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- / Video Overview end-->
+
+	<section id="about">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-md-offset-3">
+					<div class="feature_header text-center">
+						<h6 class="text-muted text-uppercase">Simple &amp; Efficient Deployment</h6>
+						<h3 class="m-t-0">Connect your products to the web in an under an hour.</h3>
+						<hr>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6 col-md-push-6">
+					<div class="tab-content vcenter">
+						<img src="images/schematic.png" alt="Tagup web server schematic" class="img-responsive services-image">
+						<img src="images/hero.png" alt="" class="img-responsive services-image">
+					</div>
+				</div>
+				<div class="col-md-6 col-md-pull-6">
+					<div class="col-xs-12 single-feature">
+						<div class="col-xs-2 feature-icon">
+							<i class="fa fa-upload"></i>
+						</div>
+						<div class="col-xs-10 feature-content">
+							<h4>1. Attach our Industrial Internet Gateway</h4>
+							<p>Easy to connect via serial (RS-232/RS-485) or via Ethernet. Data from your sensor, PLC, or RTU is parsed and sent securely to our web servers. Data can be sent via cellular, WiFi, or a hardwired connection if required. Our gateway fits in the palm of your hand, with an optional NEMA/IEC 60529 compliant version for harsh environments.</p>
+						</div>
+					</div>
+					<div class="col-xs-12 single-feature">
+						<div class="col-xs-2 feature-icon">
+							<i class="fa fa-bar-chart"></i>
+						</div>
+						<div class="col-xs-10 feature-content">
+							<h4>2. Data stored and analyzed </h4>
+							<p>Our platform can handle anything, from sub-second readings on hundreds of sensors on up. Data can be stored, searched, and visualized across an entire fleet. Our team's expertise is machine learning and artificial intelligence - honed at MIT's Computer Science and Artificial Intelligence Laboratory. We build models to predict asset failures before they occur. </p>
+						</div>
+					</div>
+					<div class="col-xs-12 single-feature">
+						<div class="col-xs-2 feature-icon">
+							<i class="fa fa-tablet"></i>
+						</div>
+						<div class="col-xs-10 feature-content">
+							<h4>3. Access data and alarm notifications anytime</h4>
+							<p>View important alerts at a unit and fleet level via our easy to use web application. Real-time asset data can be accessed using your mobile phone or computer, from anywhere in the world, at any time of the day. Say goodbye to the industrial user interfaces from the 90's, and embrace a modern user experience with Tagup.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<hr>
+	</section>
+
+	<!-- Service Area start -->
+
+	<section id="service">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2">
+					<div class="feature_header text-center">
+						<h6 class="text-muted text-uppercase">Tested Remote Access &amp; Security Technologies</h6>
+						<h3 class="m-t-0">Provide 24/7 expert support to your end customers. Identify equipment failures before they occur.</h3>
+						<hr>
+					</div>
+				</div>
+				<!-- Col-md-12 End -->
+			</div>
+			<div class="row app-marketing-grid">
+				<div class="col-sm-4 p-x-md m-b-lg">
+					<img class="m-b img-responsive marketing-icons center-block" src="images/startup-clock.svg">
+					<h4 class="text-center text-uppercase">Connect products to the web in minutes</h4>
+					<p>With our patent-pending platform, we can connect industrial products to the Internet in less than an hour. Once connected, you can view operational (like sensor data) and non-operational data (for example, site photos) remotely. Among other protocols, we can integrate products using:</p>
+					<ol class="fa-ul">
+						<li><i class="fa-li fa fa-arrow-right"></i>MODBUS RTU/ASCII</li>
+						<li><i class="fa-li fa fa-arrow-right"></i>DNP3</li>
+						<li><i class="fa-li fa fa-arrow-right"></i>IEC 61850</li>
+					</ol>
+				</div>
+				<div class="col-sm-4 p-x-md m-b-lg">
+					<img class="m-b img-responsive marketing-icons center-block" src="images/startup-secure.svg">
+					<h4 class="text-center text-uppercase">Military-Grade Security</h4>
+					<p>We've built trusted security technologies right into the core of the Tagup platform. All data is encrypted, assets are checked for authorized connections, and our embedded industrial web servers include a DMZ to ensure no external control of your products.</p>
+					<ol class="fa-ul">
+						<li><i class="fa-li fa fa-arrow-right"></i>SSL/256 bit AES encrypted transport</li>
+						<li><i class="fa-li fa fa-arrow-right"></i>NERC-CIP compliant</li>
+						<li><i class="fa-li fa fa-arrow-right"></i>Robust permissions management</li>
+					</ol>
+				</div>
+				<div class="col-sm-4 p-x-md m-b-lg">
+					<img class="m-b img-responsive marketing-icons center-block" src="images/startup-screens.svg">
+					<h4 class="text-center text-uppercase">Access data and analytics anywhere</h4>
+					<p>Our application can be accessed on any mobile device. Want to see how your circuit breakers, transformers, or generators are performing via your smart phone? No problem. Additionally, our advanced analytics suite, developed at MIT, can help identify asset failures before they occur. Move your organization from reactive to proactive.</p>
+				</div>
+			</div>
+		</div>
+		<!-- Container End -->
+	</section>
+	<!-- Service Area End -->
+
+	<!-- Contact Area Start-->
+
+	<section id="contact">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6 p-x-md m-b-lg">
+					<h6 class="text-muted text-uppercase">See Tagup in action</h6>
+					<h3 class="m-t-0">Schedule a platform demonstration.</h3>
+					<p class="lead m-b-md">We've connected everything from dissolved gas sensors on transformers to industrial electric meters. With Tagup, you can track your products' performance remotely, provide direct support to your end customer, and identify new sales and service opportunities. Want to see it in action? Submit the adjacent form and we'll schedule a platform demo with you.</p>
+				</div>
+				<div class="col-sm-5 col-sm-offset-1 contact_full left p-x-md m-b-lg">
+					<div class="left_contact">
+						<form action="http://formspree.io/jtgarrity@gmail.com" method="post">
+							<div class="form-group form-level">
+								<input type="text" class="form-control input-block" placeholder="Full Name" name="name" required>
+								<span class="form-icon fa fa-user"></span>
+							</div>
+							<div class="form-group form-level">
+								<input type="email" class="form-control" placeholder="Email Address" name="email" required>
+								<span class="form-icon fa fa-envelope-o"></span>
+							</div>
+							<div class="form-group form-level">
+								<input type="text" class="form-control" name="company" placeholder="Company Name" required>
+								<span class="form-icon fa fa-phone"></span>
+							</div>
+							<div class="form-group form-level">
+								<textarea type="text" rows="3" class="form-control" name="message" placeholder="Application of Interest" required></textarea>
+								<span class="form-icon fa fa-pencil"></span>
+							</div>
+							<input type="hidden" name="_next" value="http://tagup.io/confirmation.html">
+							<input type="text" name="_gotcha" style="display:none" />
+							<button type="submit" class="btn btn-main featured">Request a demo</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Footer Area Start -->
+
+	<section id="footer">
+		<div class="footer_b">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<div class="footer_mid text-block footer_menu">
+							<ul class="list-inline">
+								<li>
+									<span> &copy; 2016 Tagup, Inc.</span>
+								</li>
+								<li>
+									<span>|</span>
+								</li>
+								<li><i class="fa fa-phone"></i>
+									<span><a href="tel:+16178041401">+1 (617) 804-1401</a></span>
+								</li>
+								<li>
+									<span>|</span>
+								</li>
+								<li><i class="fa fa-envelope"></i>
+									<span><a href="mailto:hello@tagup.io"> hello@tagup.io</a></span>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="footer_mid pull-right">
+							<ul class="social-contact list-inline">
+								<li> <a href="https://angel.co/tagup-io"><i class="fa fa-angellist"></i></a>
+								</li>
+								<li> <a href="https://twitter.com/hello_tagup"><i class="fa fa-twitter"></i></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Footer Area End -->
+
+	<!-- Javascript Files
+    ================================================== -->
+	<!-- initialize jQuery Library -->
+
+	<!-- initialize jQuery Library -->
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<!-- Bootstrap jQuery -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	<!-- Isotope -->
+	<script src="js/jquery.isotope.js"></script>
+	<!-- SmoothScroll -->
+	<script type="text/javascript" src="js/smooth-scroll.js"></script>
+	<!-- Counter  -->
+	<script type="text/javascript" src="js/jquery.counterup.min.js"></script>
+	<script type="text/javascript" src="js/waypoints.min.js"></script>
+	<script type="text/javascript" src="js/jquery.scrollTo.js"></script>
+	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+	<!-- PrettyPhoto -->
+	<script src="js/jquery.singlePageNav.js"></script>
+	<!-- Custom js -->
+	<script src="js/custom.js"></script>
 
 
-
-
-    <div class="stage-shelf stage-shelf-right hidden" id="sidebar">
-        <ul class="nav nav-bordered nav-stacked">
-            <li class="nav-header">Navigation</li>
-            <li class="active">
-                <a href="about.html">About</a>
-            </li>
-            <li>
-                <a href="jobs.html">Jobs</a>
-            </li>
-            <li>
-                <a href="contact.html">Contact</a>
-            </li>
-            <li class="nav-divider"></li>
-            <li class="nav-header">Application</li>
-            <li>
-                <a href="http://app.tagup.io/sessions/new">Sign In</a>
-            </li>
-            <li>
-                <a href="mailto:support@tagup.io">Support</a>
-            </li>
-        </ul>
-    </div>
-
-    <div class="stage" id="stage">
-
-        <nav class="navbar navbar-transparent navbar-fixed-top navbar-padded app-navbar p-t-md">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed p-x-0" data-target="#stage" data-toggle="stage" data-distance="-250">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="pull-left navbar-logo" href="#">
-                        <img src="assets/img/tagup-logo-white.png" height="55px">
-                    </a>
-                </div>
-                <div class="navbar-collapse collapse text-uppercase">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li>
-                            <a href="about.html">About</a>
-                        </li>
-                        <li>
-                            <a href="jobs.html">Jobs</a>
-                        </li>
-                        <li>
-                            <a href="contact.html">Contact</a>
-                        </li>
-                        <li>
-                            <a class="btn btn-primary-outline" href="http://app.tagup.io/sessions/new">Sign In</a>
-                        </li>
-                    </ul>
-                </div>
-                <!--/.nav-collapse -->
-            </div>
-        </nav>
-
-
-        <div class="block block-inverse block-fill-height app-header" style="background-image:url(assets/img/plant.jpg); z-index: 1;">
-
-            <!--<img class="app-graph" src="assets/img/startup-0.svg">-->
-
-            <div class="block-xs-middle p-b-lg">
-                <div class="container">
-                    <div class="row extra-margin">
-                        <div class="col-md-4 col-sm-6">
-                            <h1 class="block-title m-b-sm">Industry 2.0</h1>
-                            <p class="lead m-b-md text-muted">Tagup connects your products to the Internet. Integrated sensor, location, and static data shared in real time across your supply chain—Tagup gives you a 360&deg; view of your install base.</p>
-                            <a href="demo.html" class="btn btn-primary btn-lg">Request a demo</a>
-                        </div>
-                        <div class="col-sm-8 extra-margin">
-                            <video class="img-responsive" poster="assets/img/poster.jpg" onclick="this.play();" preload="auto" controls>
-                                <source src="assets/video/tagup.mp4" type="video/mp4; codecs=H.264,AAC">
-                                    <source src="assets/video/tagup.webm" type="video/webm; codecs=vp8,vorbis">
-                                        <source src="assets/video/tagup.ogv" type="video/ogg; codecs=theora,vorbis">
-                            </video>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!--<div data-vide-bg="assets/video/tagup">
-        </div>-->
-
-        <div class="block block-secondary">
-            <div class="container">
-                <div class="row app-align-center">
-
-                    <div class="col-sm-5">
-                        <img class="img-responsive" src="assets/img/schematic.png" style="width: 100%;">
-                    </div>
-
-                    <div class="col-sm-6 col-sm-offset-1">
-                        <h6 class="text-muted text-uppercase">360&deg; Visibility</h6>
-                        <h3 class="m-t-0">Track your products in the field, and see their status in real time.</h3>
-                        <p class="lead m-b-md">With Tagup, never lose sight of your product's location or operational status. See when issues arise, helping you fix the problem before your customers know anything's wrong.</p>
-                        <div class="row hidden-sm">
-                            <div class="col-sm-6 m-b-md">
-                                <h5 class="m-y-0">Actionable data</h5>
-                                <p>Our solution tracks product location, vibration, ambient noise, and many other data types. Understand your products' operation like never before. <a href="demo.html" class="text-primary">Learn more.</a>
-                                </p>
-                            </div>
-                            <div class="col-sm-6">
-                                <h5 class="m-y-0">Powerful cloud solution</h5>
-                                <p>We manage the data via our secure, extensible cloud platform. The advantage? Lower deployment cost and no system integration required. <a href="demo.html" class="text-primary">Learn more</a>.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-
-        <div class="block block-inverse block-secondary app-code-block" style="background-image: url(assets/img/hydro.jpg); z-index: 1;">
-            <div class="container">
-                <div class="row app-align-center">
-
-                    <div class="col-sm-6">
-                        <h6 class="text-muted text-uppercase">See the future</h6>
-                        <h3 class="m-t-0">Try Tagup, completely risk free.</h3>
-                        <p class="lead m-b-md text-muted">Want to see how our integrated sensor solution can transform the way you manage your products in the field? Tagup is available to select customers. Enter your information here, and we'll contact you for early access and a complimentary solution demonstration.</p>
-                    </div>
-
-                    <div class="col-sm-5 col-md-offset-1">
-
-                        <form class="rounded-form" action="http://formspree.io/jtgarrity@gmail.com" method="post">
-                            <div class="form-group">
-                                <label class="text-uppercase inverse-color" for="name">Full Name</label>
-                                <input type="text" class="form-control" placeholder="John Smith" name="name" required>
-                            </div>
-                            <div class="form-group">
-                                <label class="text-uppercase inverse-color" for="email">Email Address</label>
-                                <input type="email" class="form-control" placeholder="john.smith@acme.com" name="email" required>
-                            </div>
-                            <div class="form-group">
-                                <label class="text-uppercase inverse-color" for="company">Company Name</label>
-                                <input type="text" class="form-control" name="company" placeholder="Acme Co." required>
-                            </div>
-                            <input type="hidden" name="_next" value="http://tagup.io/confirmation.html">
-                            <input type="text" name="_gotcha" style="display:none" />
-                            <button type="submit" class="btn btn-primary btn-pill btn-block">Request a demo</button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!--<div class="block app-ribbon p-y-lg">
-            <div class="container text-center">
-                <h5 class="text-uppercase">Developed with support from:</h5>
-                <div class="partner-logos">
-                    <img src="assets/img/mit.png">
-                    <img src="assets/img/fraunhofer.png">
-                    <img src="assets/img/greentown.png">
-                </div>
-            </div>
-        </div>-->
-
-        <div class="block block-inverse app-footer">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-5 m-b-md">
-                        <ul class="list-unstyled list-spaced">
-                            <li class="m-b">
-                                <h6 class="text-uppercase">About</h6>
-                            </li>
-                            <li class="text-muted">
-                                At Tagup, we’re helping industrial companies connect their products to the Internet. If you’d like to learn more, or are interested in a job, contact us anytime at <a href="mailto: hello@tagup.io">hello@tagup.io</a>.
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-2 col-sm-offset-1 m-b-md">
-                        <ul class="list-unstyled list-spaced">
-                            <li class="m-b">
-                                <h6 class="text-uppercase">Solution</h6>
-                            </li>
-                            <li><a class="text-muted" href="demo.html">Demo Request</a>
-                            </li>
-                            <li><a class="text-muted" href="http://app.tagup.io/sessions/new">Sign In</a>
-                            </li>
-                            <li><a class="text-muted" href="mailto:support@tagup.io">Support</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-2 m-b-md">
-                        <ul class="list-unstyled list-spaced">
-                            <li class="m-b">
-                                <h6 class="text-uppercase">Company</h6>
-                            </li>
-                            <li><a class="text-muted" href="about.html">About</a>
-                            </li>
-                            <li><a class="text-muted" href="jobs.html">Careers</a>
-                            </li>
-                            <li><a class="text-muted" href="contact.html">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-2 m-b-md">
-                        <ul class="list-unstyled list-spaced">
-                            <li class="m-b">
-                                <h6 class="text-uppercase">Legal</h6>
-                            </li>
-                            <li><a class="text-muted" href="terms.html">Terms</a>
-                            </li>
-                            <li><a class="text-muted" href="privacy.html">Privacy</a>
-                            </li>
-
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </div>
-
-
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/toolkit.js"></script>
-    <script src="assets/js/application.js"></script>
-    <script src="assets/js/jquery.vide.min.js"></script>
 </body>
 
 </html>
