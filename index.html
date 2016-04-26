@@ -250,7 +250,7 @@
 								<textarea type="text" rows="3" class="form-control" name="message" placeholder="Application of Interest" required></textarea>
 								<span class="form-icon fa fa-pencil"></span>
 							</div>
-							<input type="hidden" name="_next" value="http://tagup.io/confirmation.html">
+							<input type="hidden" name="_next" value="#myModal">
 							<input type="text" name="_gotcha" style="display:none" />
 							<button type="submit" class="btn btn-main featured">Request a demo</button>
 						</form>
@@ -302,6 +302,27 @@
 			</div>
 		</div>
 	</section>
+
+	<div id="myModal" class="modal fade" tabindex="-1" role="dialog">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+					</button>
+					<h4 class="modal-title">Confirmation</h4>
+				</div>
+				<div class="modal-body">
+					<p>Thanks! We'll be in touch shortly.</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+			<!-- /.modal-content -->
+		</div>
+		<!-- /.modal-dialog -->
+	</div>
+	<!-- /.modal -->
 	<!-- Footer Area End -->
 
 	<!-- Javascript Files
@@ -325,6 +346,16 @@
 	<script src="js/jquery.singlePageNav.js"></script>
 	<!-- Custom js -->
 	<script src="js/custom.js"></script>
+
+	<script>
+		$(document).ready(function () {
+
+			if (window.location.href.indexOf('#myModal') != -1) {
+				$('#myModal').modal('show');
+			}
+
+		});
+	</script>
 
 
 </body>
