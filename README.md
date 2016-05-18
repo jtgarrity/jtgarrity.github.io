@@ -1,1 +1,0 @@
-# jtgarrity.github.io
