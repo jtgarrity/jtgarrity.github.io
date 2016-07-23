@@ -14,11 +14,35 @@ html {
 /* Home Page */
 
 .customer-logo img {
+	display: inline-block;
 	max-width: 100%;
 	max-height: 50px;
 	-webkit-filter: grayscale(100%);
 	filter: grayscale(100%);
 	align-content: center;
+}
+
+.customer-logo ul {
+	text-align: justify;
+}
+
+.customer-logo ul:after {
+	content: '';
+	display: inline-block;
+	width: 100%;
+}
+
+.customer-logo ul:before {
+	content: '';
+	display: block;
+	margin-top: -1.25em;
+}
+
+.customer-logo li {
+	display: inline-block;
+	margin-right: -.25em;
+	position: relative;
+	top: 1.25em;
 }
 
 .lead-section {
