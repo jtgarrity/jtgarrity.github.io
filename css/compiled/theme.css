@@ -556,7 +556,7 @@ a:focus, button:focus {
 
 #footer-white {
   background: #fff;
-  padding-top: 70px;
+  padding-top: 0px;
   padding-bottom: 30px;
   -webkit-font-smoothing: antialiased; }
   @media (max-width: 991px) {

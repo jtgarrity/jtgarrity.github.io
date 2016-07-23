@@ -14,7 +14,7 @@
 	<!-- stylesheets -->
 	<link rel="stylesheet" type="text/css" href="css/compiled/theme.css">
 	<link rel="stylesheet" type="text/css" href="css/vendor/animate.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/noncompiled.css">
 
 	<!-- javascript -->
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
@@ -38,31 +38,12 @@
     		</div>
     		<nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
       			<ul class="nav navbar-nav navbar-right">
-      				<li class="dropdown">
-        				<a href="#" class="dropdown-toggle" data-toggle="dropdown">
-          					Portfolio <b class="caret"></b>
-          				</a>
-          				<ul class="dropdown-menu">
-							<li><a href="portfolio.html">Current Projects</a></li>
-				        </ul>
-        			</li>
-        			<li class="dropdown">
-        				<a href="#" class="dropdown-toggle" data-toggle="dropdown">
-          					Showcase <b class="caret"></b>
-          				</a>
-          				<ul class="dropdown-menu">
-							<li><a href="features.html">Features</a></li>
-							<li><a href="services.html">Services</a></li>
-				        </ul>
-        			</li>
-        			<li class="dropdown">
-          				<a href="#" class="dropdown-toggle" data-toggle="dropdown">
-          					Pricing <b class="caret"></b>
-          				</a>
-          				<ul class="dropdown-menu">
-							<li><a href="pricing.html">Pricing charts</a></li>
-				        </ul>
-        			</li>
+					<li>
+						<a href="http://tagup.io/fresh/solution.html">Solution</a>
+					</li>
+					<li>
+						<a href="http://tagup.io/fresh/cases.html">Case Studies</a>
+					</li>
         			<li class="dropdown">
         				<a href="#" class="dropdown-toggle" data-toggle="dropdown">
           					More pages <b class="caret"></b>
@@ -86,7 +67,7 @@
 	<div id="hero">
 		<div class="container">
 			<h1 class="hero-text animated fadeInDown">
-				Monitor your devices <br />
+				Monitor your equipment <br />
 				Anytime, anywhere.
 			</h1>
 			<p class="sub-text animated fadeInDown">
@@ -147,9 +128,26 @@
 				</div>
 			</div>
 			</div>
+		<div id="clients">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h3>Our Customers</h3>
+						<p>
+							Companies currently using Tagup to monitor their equipment in the field:
+						</p>
+						<div class="logos customer-logo">
+							<img src="images/tagup/MITlogo.png">
+							<img src="images/tagup/veolia.png">
+							<img src="images/tagup/thermofisher.png">
+							<img src="images/tagup/newtonwellesley.png">
+						</div>
+					</div>
+				</div>
 
-			<div class="divider"></div>
-
+			</div>
+		</div>
+		<div class="divider"></div>
 		<div class="row feature backwards">
 			<section id="contact">
 				<div class="container">
@@ -164,19 +162,15 @@
 								<form action="http://formspree.io/jtgarrity@gmail.com" method="post">
 									<div class="form-group form-level">
 										<input type="text" class="form-control input-block" placeholder="Full Name" name="name" required>
-										<span class="form-icon fa fa-user"></span>
 									</div>
 									<div class="form-group form-level">
 										<input type="email" class="form-control" placeholder="Email Address" name="email" required>
-										<span class="form-icon fa fa-envelope-o"></span>
 									</div>
 									<div class="form-group form-level">
 										<input type="text" class="form-control" name="company" placeholder="Company Name" required>
-										<span class="form-icon fa fa-institution"></span>
 									</div>
 									<div class="form-group form-level">
 										<textarea type="text" rows="3" class="form-control" name="message" placeholder="Application of Interest" required></textarea>
-										<span class="form-icon fa fa-pencil"></span>
 									</div>
 									<input type="hidden" name="_next" value="http://tagup.io/confirmation.html">
 									<input type="text" name="_gotcha" style="display:none" />
@@ -202,95 +196,11 @@
 					<img src="images/tagup/hero.png" class="img-responsive" alt="feature2" />
 				</div>
 			</div> -->
+		<div class="divider"></div>
 		</div>		
 	</div>
-
-	<div id="clients">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<h3>Our Customers</h3>
-					<p>
-						Companies currently using Tagup to monitor their equipment in the field:
-					</p>
-					<div class="logos">
-						<img src="images/logos/google.png">
-						<img src="images/logos/facebook.png">
-						<img src="images/logos/apple.png">
-						<img src="images/logos/stripe.png">
-						<img src="images/logos/yahoo.png">
-					</div>
-				</div>
-			</div>
-
-		</div>
-	</div>
-
-
-
 	<div id="footer-white">
 		<div class="container">
-			<div class="row">
-				<div class="col-md-3 menu">
-					<h3>Overview</h3>
-					<ul>
-	      				<li>
-	          				<a href="portfolio.html">Projects</a>
-	        			</li>
-	        			<li>
-	        				<a href="services.html">Services</a>
-	        			</li>
-	        			<li>
-	          				<a href="pricing.html">Pricing</a>
-	        			</li>
-	      			</ul>
-				</div>
-				<div class="col-md-3 menu">
-					<h3>Menu</h3>
-					<ul>
-	      				<li>
-	          				<a href="features.html">About us</a>
-	        			</li>
-	        			<li>
-	        				<a href="services.html">Contact us</a>
-	        			</li>
-	        			<li>
-	          				<a href="aboutus.html">Jobs</a>
-	          				<a href="aboutus.html" class="hiring">
-	          					We're hiring!
-	          				</a>
-	        			</li>
-	      			</ul>
-				</div>
-				<div class="col-md-2 menu">
-					<h3>Social</h3>
-					<ul>
-	      				<li>
-	          				<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Youtube</a>
-	        			</li>
-	        			<li>
-	        				<a href="facebook.com">Facebook</a>
-	        			</li>
-	        			<li>
-	          				<a href="twitter.com">Twitter</a>
-	        			</li>
-	      			</ul>
-				</div>
-				<div class="col-sm-4 newsletter">
-					<div class="signup clearfix">
-						<p>
-							Sign up for the newsletter and we'll inform you of updates and more.
-						</p>
-						<form>
-							<input type="text" name="email" class="form-control" placeholder="Your email address" />
-							<input type="submit" value="Sign up" />
-						</form>
-					</div>
-					<a href="#">
-						<img src="images/social/social-tw.png" alt="twitter" />
-					</a>
-				</div>
-			</div>
 			<div class="row credits">
 				<div class="col-md-12">
 					<ul class="list-inline">
