@@ -1,26 +1,32 @@
 /* Global Rules */
 
 html {
-	font-family: sans-serif;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	-ms-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-smoothing: antialiased;
 }
 
 .footer {
 	color: grey;
 	height: 60px;
 	background: #F9FAFA;
+	padding: 20px;
 }
 /* Home Page */
 
 .lead-section {
-	padding: 200px;
+	padding: 200px 0 200px 0;
 	color: white;
 	background: gray;
+	background-image: url(http://inweekly.net/wordpress/wp-content/uploads/2011/03/cooling-towers-of-a-nuclear-power-station.jpg) no-repeat center
+	
 }
 
 .feature-section {
-	padding: 100px;
+	padding: 100px 0 100px 0;
 }
 
 .customer-section {
@@ -29,7 +35,11 @@ html {
 }
 
 .case-section {
-	padding: 120px;
+	padding: 170px 0 100px 0;
+}
+
+.case-description {
+	padding-top: 75px;
 }
 
 .news-section {
@@ -40,8 +50,8 @@ html {
 	padding: 100px;
 }
 
-.footer {
-	padding: 20px;
+.customer-logo {
+	text-align: center;
 }
 
 .customer-logo img {
@@ -50,23 +60,7 @@ html {
 	max-height: 50px;
 	-webkit-filter: grayscale(100%);
 	filter: grayscale(100%);
-	align-content: center;
-}
-
-.customer-logo ul {
-	text-align: justify;
-}
-
-.customer-logo ul:after {
-	content: '';
-	display: inline-block;
-	width: 100%;
-}
-
-.customer-logo ul:before {
-	content: '';
-	display: block;
-	margin-top: -1.25em;
+	padding: 0 15px 5px 15px;
 }
 
 .customer-logo li {
@@ -77,13 +71,13 @@ html {
 }
 
 .tagup-logo {
-	height: 43px;
+	height: 33px;
+	margin-top: -6px
 }
 
 .news-section {
 	background: #F9FAFA;
 }
-
 /* About Page Styles */
 
 .teamphotos {
