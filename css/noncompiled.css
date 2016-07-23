@@ -1,4 +1,31 @@
-.customer-logo img{
-    max-width: 100%;
-    max-height: 50px;
+.customer-logo img {
+	max-width: 100%;
+	max-height: 50px;
+}
+
+.tagup-logo {
+	height: 43px;
+}
+
+.log-in-button {
+	color: #fff;
+	background-color: #ff5740;
+	display: inline-block;
+	padding: 6px 1em 7px;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	white-space: nowrap;
+	border-radius: 2px;
+	border: none;
+	box-sizing: border-box;
+	cursor: pointer;
+}
+
+.log-in-button:hover {
+	color: #fff;
+	background-color: #e94c36 !important; 
+	background: #ff5740;
+	outline: 0;
+	text-decoration: none;
 }
