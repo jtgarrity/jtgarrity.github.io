@@ -27,63 +27,49 @@
 	<link rel="shortcut icon" type="image/ico" href="favicon.ico" />
 </head>
 
-<body>
-	<nav class="navbar navbar-default navbar-inverse navbar-fixed-top">
-		<div class="container-fluid">
-			<!-- Brand and toggle get grouped for better mobile display -->
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				<a class="navbar-brand" href="index.html">Tagup logo</a>
-			</div>
-
-			<!-- Collect the nav links, forms, and other content for toggling -->
-			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-				<ul class="nav navbar-nav navbar-right">
-					<li><a href="solution.html">Solution</a>
-					</li>
-					<li><a href="cases.html">Case Studies</a>
-					</li>
-					<li><a href="about.html">About</a>
-					</li>
-					<li>
-						<button class="btn btn-success navbar-btn" href="#">Request Demo</button>
-					</li>
-					<li><a href="#">Sign In</a>
-					</li>
-				</ul>
-			</div>
-			<!-- /.navbar-collapse -->
+<body id="about-us">
+<header class="navbar navbar-inverse normal" role="banner">
+	<div class="container">
+		<div class="navbar-header">
+			<a href="index.html" class="navbar-brand">Tagup</a>
 		</div>
-		<!-- /.container-fluid -->
-	</nav>
-	<div class="container-fluid">
-
-		<div class="row lead-section">
-			<div class="col-md-8 col-md-offset-2 text-center">
+		<nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+			<ul class="nav navbar-nav navbar-right">
+				<li>
+					<a href="http://tagup.io/fresh/solution.html">Solution</a>
+				</li>
+				<li>
+					<a href="http://tagup.io/fresh/cases.html">Case Studies</a>
+				</li>
+				<li>
+					<a href="/fresh/about.html">About</a>
+				</li>
+				<li>
+					<a href="http://cloud.tagup.io/">Log In</a>
+				</li>
+				</li>
+			</ul>
+		</nav>
+	</div>
+</header>
+<div id="info">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
 				<h1>Reinventing how businesses manage equipment data</h1>
-				<h4>Our mission is to provide a web interface between manufacturers, value-added resellers, and their customers. Founded in 2015 at MIT, we've worked night and day over the past year to build a solution transforming the way asset data is tracked and shared.</h4>
-			</div>
-		</div>
-		<br>
-		<br>
-
-		<div class="row case-study">
-			<div class="col-md-5 col-md-offset-1">
-				<h2>Our team</h2>
-				<p>Tagup uses off-the-shelf hardware, secure and easy to install – all in under an hour. A variety of protocols, from Modbus to BACnet to ASCII work out of the box, and we're adding new supported protocols continually. If your equipment has an Ethernet or serial interface, we can integrate it.
+				<p>
+					Our mission is to provide a web interface between manufacturers, value-added resellers, and their customers.Founded in 2015 at MIT, we've worked night and day over the past year to build a solution transforming the way asset data is tracked and shared.
 				</p>
-
+				<p>
+					Tagup uses off-the-shelf hardware, secure and easy to install – all in under an hour. A variety of protocols, from Modbus to BACnet to ASCII work out of the box, and we're adding new supported protocols continually. If your equipment has an Ethernet or serial interface, we can integrate it.
+				</p>
 			</div>
-			<div class="col-md-5">
-				<img class="img-responsive" src="http://www.gewater.com/artifacts/img/product/commercial-reverse-osmosis-system.jpg">
+			<div class="col-md-6">
+				<img src="img/diagram.png" class="img-responsive" alt="diagram" />
 			</div>
 		</div>
 
+		<hr>
 
 		<div class="row">
 			<div class="col-sm-12">
@@ -95,9 +81,9 @@
 		<div class="row">
 
 			<div class="col-sm-2">
-				<img class="img-responsive img-rounded" src="images/jon.png" style="max-height:125px">
+				<img class="img-responsive img-rounded teamphotos" src="img/jon.png" style="max-height:125px">
 			</div>
-			<div class="col-sm-6">
+			<div class="col-sm-10">
 				<h4>Jon Garrity <small class="text-muted">Founder &amp; CEO</small></h4>
 				<p>Jon's background is in industrial information systems. Prior to Tagup, he worked at GE Energy in Atlanta. His first role at GE was as a software product manager on the Grid IQ product line. In this role he was responsible for working with a development team of over twenty engineers in Atlanta, San Ramon, and Shanghai to build analytics applications for electric utilities. In his most recent role at GE, he worked as fulfillment lead on a joint venture with a Chinese high voltage equipment manufacturer.</p>
 				<p>Before GE, Jon studied physics and economics at MIT. After GE, he earned his MBA from Harvard Business School. He is the principal inventor on one granted and several pending patents.
@@ -110,9 +96,9 @@
 		<div class="row">
 			<br>
 			<div class="col-sm-2">
-				<img class="img-responsive img-rounded" src="images/will.png" style="max-height:125px">
+				<img class="img-responsive img-rounded teamphotos" src="img/will.png" style="max-height:125px">
 			</div>
-			<div class="col-sm-6">
+			<div class="col-sm-10">
 				<h4>Will Vega-Brown <small class="text-muted">Founder &amp; CTO</small></h4>
 				<p>Will is a fourth year PhD candidate in the Computer Science and Artificial Intelligence Laboratory (CSAIL) at MIT, working in machine learning and artificial intelligence. His research focuses on ways to ground symbolic planning in the real world, and involves software engineering from microcontrollers through high-level web programming.</p>
 				<p>Prior to beginning graduate studies, he completed his undergraduate studies at MIT, majoring in physics and mechanical engineering. Outside of work, Will is a jiu-jitsu black belt and sensei.</p>
@@ -130,9 +116,9 @@
 		<div class="row">
 
 			<div class="col-sm-2">
-				<img class="img-responsive img-rounded bio-photos" src="images/jmd.jpg" style="max-height:125px">
+				<img class="img-responsive img-rounded teamphotos" src="img/jmd.jpg" style="max-height:125px">
 			</div>
-			<div class="col-sm-6">
+			<div class="col-sm-10">
 				<h4>John McDonald <small class="text-muted">Smart Grid Business Development Leader, GE Grid Solutions</small></h4>
 				<p>John D. McDonald, P.E., is SmartGrid Business Development Leader - North America for GE Grid Solutions Global SmartGrid Strategy Group.</p>
 				<p>John received his BSEE and MSEE (Power Engineering) degrees from Purdue University, and an MBA degree from the University of California-Berkeley. John is a Fellow of IEEE, and was awarded the IEEE Millennium Medal in 2000, the IEEE PES (Power &amp; Energy Society) Excellence in Power Distribution Engineering Award in 2002, the IEEE PES Substations Committee Distinguished Service Award in 2003 and the IEEE PES Meritorious Service Award in 2015.
@@ -142,48 +128,35 @@
 			</div>
 
 		</div>
-
-		<br>
-		<br>
 	</div>
-	<br>
-	<br>
+</div>
+
+<hr>
+
+<div id="footer-white">
 	<div class="container">
-		<div class="row">
-			<hr>
-			<div class="col-md-6">
-				<h3>Contact us</h3>
-			</div>
-			<div class="col-md-6">
-				<h3>See Tagup in action. Request a free demo below.</h3>
-				<form>
-					<div class="form-group">
-						<input type="text" class="form-control" id="name" placeholder="Full Name">
-					</div>
-					<div class="form-group">
-						<input type="email" class="form-control" id="email" placeholder="Email">
-					</div>
-					<div class="form-group">
-						<input type="text" class="form-control" id="company" placeholder="Company">
-					</div>
-					<button type="submit" class="btn btn-default">Request a demo!</button>
-				</form>
+		<div class="row credits">
+			<div class="col-md-12">
+				<ul class="list-inline">
+					<li>
+						<span> &copy; 2016 Tagup, Inc.</span>
+					</li>
+					<li>
+						<span>|</span>
+					</li>
+					<li><i class="fa fa-phone"></i>
+						<span><a href="tel:+16178041401">+1 (617) 804-1401</a></span>
+					</li>
+					<li>
+						<span>|</span>
+					</li>
+					<li><i class="fa fa-envelope"></i>
+						<span><a href="mailto:hello@tagup.io"> hello@tagup.io</a></span>
+					</li>
+				</ul>
 			</div>
 		</div>
 	</div>
-
-	<br>
-	<br>
-	<footer class="footer">
-		<div class="container">
-			<ul class="list-inline">
-				<li>About</li>
-				<li>Press</li>
-				<li>Careers</li>
-				<li>Blog</li>
-			</ul>
-		</div>
-	</footer>
-
-	</div>
+</div>
 </body>
+</html>
