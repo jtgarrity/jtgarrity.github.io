@@ -24,44 +24,35 @@
 	<link rel="stylesheet" href="css/style.css" />
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
-	<link rel="shortcut icon" type="image/ico" href="favicon.ico" />
+	<link rel="shortcut icon" href="favicon.ico" />
 </head>
 
 <body>
-	<nav class="navbar navbar-default navbar-inverse navbar-fixed-top">
-		<div class="container-fluid">
-			<!-- Brand and toggle get grouped for better mobile display -->
+	<header class="navbar navbar-inverse normal" role="banner">
+		<div class="container">
 			<div class="navbar-header">
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				<a class="navbar-brand" href="index.html"><img class="tagup-logo" src="img/tagup-simple.png">
+				<a href="index.html" class="navbar-brand"><img class="tagup-logo" src="img/tagup-simple.png">
 				</a>
 			</div>
-
-			<!-- Collect the nav links, forms, and other content for toggling -->
-			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
 				<ul class="nav navbar-nav navbar-right">
-					<li><a href="solution.html">Solution</a>
-					</li>
-					<li><a href="cases.html">Case Studies</a>
-					</li>
-					<li><a href="about.html">About</a>
+					<li>
+						<a href="http://tagup.io/fresh/solution.html">Solution</a>
 					</li>
 					<li>
-						<button class="btn btn-success navbar-btn" href="#">Request Demo</button>
+						<a href="http://tagup.io/fresh/cases.html">Case Studies</a>
 					</li>
-					<li><a href="https://cloud.tagup.io">Sign In</a>
+					<li>
+						<a href="/fresh/about.html">About</a>
+					</li>
+					<li>
+						<a href="http://cloud.tagup.io/">Log In</a>
+					</li>
 					</li>
 				</ul>
-			</div>
-			<!-- /.navbar-collapse -->
+			</nav>
 		</div>
-		<!-- /.container-fluid -->
-	</nav>
+	</header>
 	<section class="lead-section">
 		<div class="container">
 			<div class="row">
@@ -90,8 +81,8 @@
 	<section class="feature-section">
 		<div class="container">
 			<div class="row ">
-				<div class="col-md-8 col-md-offset-2 text-center">
-					<h4>The first secure, end-to-end Industrial Internet solution.</h4>
+				<div class="col-md-10 col-md-offset-1 text-center">
+					<h5 class="text-uppercase text-muted">The first secure, end-to-end Industrial Internet solution</h5>
 					<h3>Connect your equipment to the Internet with off-the-shelf hardware in under an hour. Monitor asset health 24/7 from anywhere in the world.</h3>
 				</div>
 			</div>
@@ -130,7 +121,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<h4 class="text-center">Customers using Tagup to monitor equipment in the field:</h4>
+					<h4 class="text-center text-muted">Customers using Tagup to monitor equipment in the field</h4>
 					<ul class="logos customer-logo">
 						<li><img src="img/MITlogo.png">
 						</li>
@@ -152,9 +143,9 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6 case-description">
-					<h5>Case study:</h5>
+					<h5 class="text-muted text-uppercase">Case study</h5>
 					<h2>Internet-enabled Reverse Osmosis System</h2>
-					<p>Tagup partners with PureFlow, a leading water purification service provider, to connect Thermo Fisher's reverse osmosis machine to the web and remotely monitor its status. Tagup’s solution enables Pure Flow to effectively manage the equipment, to gain unique insights into product performance, and to provide extended customer support.
+					<p>Tagup partners with Pure Flow, a leading water purification service provider, to connect Thermo Fisher's reverse osmosis machine to the web and remotely monitor its status. Tagup’s solution enables Pure Flow to effectively manage the equipment, to gain unique insights into product performance, and to provide extended customer support.
 					</p>
 					<a href="#">Read more...</a>
 
@@ -172,7 +163,7 @@
 				<div class="col-md-12">
 					<h3 class="text-center">Company News</h3>
 				</div>
-				<div class="col-sm-5 col-sm-offset-1">
+				<div class="col-sm-6">
 					<h5>MIT Fusion Reactor uses Internet of Things platform to run smoothly</h5>
 					<p>MIT News | July 31, 2016</p>
 					<br>
@@ -182,7 +173,7 @@
 					<h5>MIT Fusion Reactor uses Internet of Things platform to run smoothly</h5>
 					<p>MIT News | July 31, 2016</p>
 				</div>
-				<div class="col-md-5">
+				<div class="col-md-6">
 					<h5>MIT Fusion Reactor uses Internet of Things platform to run smoothly</h5>
 					<p>MIT News | July 31, 2016</p>
 					<br>

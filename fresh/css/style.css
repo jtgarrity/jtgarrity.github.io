@@ -10,22 +10,59 @@ html {
 }
 
 .container {
-	width: 970px;
+	max-width: 970px;
+}
+
+.navbar {
+	margin-bottom: -20px;
 }
 
 h1 {
-	font-size: 24px;
-	font-family: Myriad Pro, Lato, Helvetica Neue, Arial;
+	font-family: Helvetica Neue, Arial;
 	color: #444;
-	line-height: 25px;
-	font-weight: 500;
-	margin-bottom: 25px;
+	font-weight: 700;
 }
 
 p {
 	color: #666;
 	line-height: 23px;
 	margin-bottom: 15px;
+}
+
+.text-left {
+	text-align: left;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text-justify {
+	text-align: justify;
+}
+
+.text-nowrap {
+	white-space: nowrap;
+}
+
+.text-lowercase {
+	text-transform: lowercase;
+}
+
+.text-uppercase {
+	text-transform: uppercase;
+}
+
+.text-capitalize {
+	text-transform: capitalize;
+}
+
+.text-muted {
+	color: #aaaaaa;
 }
 
 .navbar.normal {
@@ -203,7 +240,6 @@ p {
 .advisory-board {
 	padding: 50px;
 }
-
 /* Case Section */
 
 .case-study {
