@@ -8,9 +8,25 @@ html {
 	-moz-osx-font-smoothing: grayscale;
 	font-smoothing: antialiased;
 }
-/*.container {
+
+.container {
 	width: 970px;
-}*/
+}
+
+h1 {
+	font-size: 24px;
+	font-family: Myriad Pro, Lato, Helvetica Neue, Arial;
+	color: #444;
+	line-height: 25px;
+	font-weight: 500;
+	margin-bottom: 25px;
+}
+
+p {
+	color: #666;
+	line-height: 23px;
+	margin-bottom: 15px;
+}
 
 .navbar.normal {
 	min-height: 70px;
@@ -69,29 +85,8 @@ html {
 	z-index: 1001;
 }
 
-#about-us #info {
-	-webkit-font-smoothing: antialiased;
-}
-
-#about-us #info h1 {
-	font-size: 24px;
-	font-family: Myriad Pro, Lato, Helvetica Neue, Arial;
-	color: #444;
-	line-height: 25px;
-	font-weight: 500;
-	margin-bottom: 25px;
-}
-
-#about-us #info p {
-	color: #666;
-	line-height: 23px;
-	margin-bottom: 15px;
-}
-
-@media (min-width: 992px) {
-	#about-us #info p {
-		width: 88%;
-	}
+.navbar.normal .navbar-collapse .navbar-nav > li > a:hover {
+	color: white;
 }
 
 #footer-white {
@@ -196,6 +191,19 @@ html {
 	-webkit-filter: grayscale(100%);
 	filter: grayscale(100%);
 }
+
+.about-intro {
+	padding: 100px 0 0 0;
+}
+
+.executive-team {
+	padding: 100px;
+}
+
+.advisory-board {
+	padding: 50px;
+}
+
 /* Case Section */
 
 .case-study {
