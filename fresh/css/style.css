@@ -13,6 +13,37 @@ html {
 }
 /* Home Page */
 
+.lead-section {
+	padding: 200px;
+	color: white;
+	background: gray;
+}
+
+.feature-section {
+	padding: 100px;
+}
+
+.customer-section {
+	background: #F9FAFA;
+	padding: 20px;
+}
+
+.case-section {
+	padding: 120px;
+}
+
+.news-section {
+	padding: 100px;
+}
+
+.contact-section {
+	padding: 100px;
+}
+
+.footer {
+	padding: 20px;
+}
+
 .customer-logo img {
 	display: inline-block;
 	max-width: 100%;
@@ -45,17 +76,6 @@ html {
 	top: 1.25em;
 }
 
-.lead-section {
-	height: 500px;
-	padding-top: 175px;
-	color: white;
-	background: gray;
-}
-
-.feature-section {
-	height: 400px;
-}
-
 .tagup-logo {
 	height: 43px;
 }
@@ -64,9 +84,6 @@ html {
 	background: #F9FAFA;
 }
 
-.customer-bar {
-	background: #F9FAFA;
-}
 /* About Page Styles */
 
 .teamphotos {
