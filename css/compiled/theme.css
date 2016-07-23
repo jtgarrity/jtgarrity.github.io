@@ -817,7 +817,7 @@ a:focus, button:focus {
   #home #features .header {
     text-align: center; }
     #home #features .header h2 {
-      color: #555;
+      color: #530;
       font-weight: 300;
       font-size: 28px; }
       @media (max-width: 767px) {
@@ -841,7 +841,7 @@ a:focus, button:focus {
       #home #features .feature {
         margin-top: 10px; } }
     #home #features .feature .info h4 {
-      color: #5585B3;
+      color: #555;
       font-weight: normal;
       font-size: 19px;
       line-height: 25px;
@@ -1229,8 +1229,8 @@ a:focus, button:focus {
 #home #clients {
   background: #ff4f00;
   background: radial-gradient(#36414E, #253241);
-  margin-top: 120px;
-  padding: 65px 0 80px;
+  margin-top: 0px;
+  padding:0px 0 30px;
   text-align: center; }
   #home #clients h3 {
     color: #FFF;
