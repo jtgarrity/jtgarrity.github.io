@@ -1,6 +1,6 @@
 /* Global Rules */
-@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic);
 
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic);
 html {
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	-ms-text-size-adjust: 100%;
@@ -156,6 +156,8 @@ p {
 .footer a {
 	color: #d5d5d5;
 }
+
+
 /* Home Page */
 
 .lead-section {
@@ -242,7 +244,7 @@ p {
 }
 
 .contact-header {
-padding: 20px 0 10px 0;
+	padding: 20px 0 10px 0;
 }
 
 .contact-locations {
@@ -258,6 +260,8 @@ padding: 20px 0 10px 0;
 .news-section {
 	background: #F9FAFA;
 }
+
+
 /* About Page Styles */
 
 .about-intro {
@@ -265,12 +269,12 @@ padding: 20px 0 10px 0;
 }
 
 .intro-header {
-    font-size: 24px;
-    font-family: Myriad Pro, Lato, Helvetica Neue, Arial;
-    color: #444;
-    line-height: 25px;
-    font-weight: 500;
-    margin-bottom: 25px;
+	font-size: 24px;
+	font-family: Myriad Pro, Lato, Helvetica Neue, Arial;
+	color: #444;
+	line-height: 25px;
+	font-weight: 500;
+	margin-bottom: 25px;
 }
 
 .teamphotos {
@@ -286,6 +290,8 @@ padding: 20px 0 10px 0;
 .advisory-board {
 	padding: 25px 0 130px 0;
 }
+
+
 /* Solution Page Styles */
 
 .solution-intro {
@@ -420,7 +426,6 @@ padding: 20px 0 10px 0;
 
 #solution .snippets {
 	/* mixin found in partials/snippets */
-	
 	margin-top: 100px;
 }
 
@@ -561,8 +566,154 @@ padding: 20px 0 10px 0;
 #solution .snippets .feature.last .image img {
 	margin-left: 70px;
 }
-/* Case Section */
 
-.case-study {
-	padding-bottom: 100px;
+
+/* Case Studies Styles */
+
+#cases #hero {
+	margin-top: 100px;
+}
+
+@media (min-width: 992px) {
+	#cases #hero .row {
+		border-bottom: 1px solid #E6E6E8;
+	}
+}
+
+@media (max-width: 991px) {
+	#cases #hero .image img {
+		margin: 0 auto;
+	}
+}
+
+@media (min-width: 992px) {
+	#cases #hero .info {
+		padding-left: 60px;
+	}
+}
+
+@media (max-width: 991px) {
+	#cases #hero .info {
+		text-align: center;
+	}
+}
+
+#cases #hero .info h3 {
+	font-family: Myriad Pro, Lato, Helvetica Neue, Arial;
+	font-weight: 500;
+	margin-top: 70px;
+	font-size: 28px;
+}
+
+#cases #hero .info p {
+	color: #666;
+	margin-top: 10px;
+	margin-bottom: 70px;
+}
+
+@media (min-width: 992px) {
+	#cases #hero .info p {
+		width: 85%;
+	}
+}
+
+@media (max-width: 991px) {
+	#cases .actual-cases {
+		margin-top: 50px;
+	}
+}
+
+#cases .actual-cases .header {
+	border-top: 1px solid #E6E6E8;
+	padding-top: 55px;
+	margin-bottom: 35px;
+}
+
+#cases .actual-cases .header h3 {
+	font-size: 27px;
+	font-family: Myriad Pro, Lato, Helvetica Neue, Arial;
+	color: #444;
+	line-height: 25px;
+	font-weight: 500;
+	margin-bottom: 20px;
+}
+
+@media (max-width: 991px) {
+	#cases .actual-cases .header h3 {
+		text-align: center;
+	}
+}
+
+#cases .actual-cases .header .panel {
+	margin-top: 20px;
+}
+
+#cases .actual-cases .header p {
+	font-size: 15px;
+	font-weight: 400;
+	color: #666;
+	line-height: 24px;
+	margin-top: 15px;
+}
+
+@media (max-width: 991px) {
+	#cases .actual-cases .header p {
+		margin: 0 auto;
+		width: 90%;
+		text-align: center;
+	}
+}
+
+#cases .actual-cases .header li {
+	font-size: 15px;
+	font-weight: 400;
+	color: #666;
+	line-height: 24px;
+}
+
+#cases .actual-cases .features {
+	margin-bottom: 20px;
+}
+
+@media (max-width: 991px) {
+	#cases .actual-cases .features .feature {
+		text-align: center;
+		margin-bottom: 30px;
+	}
+}
+
+#cases .actual-cases .features .feature img {
+	max-width: 40px;
+	position: relative;
+	top: 10px;
+}
+
+@media (min-width: 992px) {
+	#cases .actual-cases .features .feature img {
+		float: left;
+	}
+}
+
+@media (min-width: 992px) {
+	#cases .actual-cases .features .feature .info {
+		float: left;
+		width: 80%;
+		margin-left: 20px;
+	}
+}
+
+#cases .actual-cases .features .feature .info strong {
+	display: block;
+	font-weight: 500;
+	font-size: 16px;
+	color: #444;
+	margin-top: 15px;
+}
+
+#cases .actual-cases .features .feature .info p {
+	font-weight: normal;
+	font-size: 14px;
+	color: #797979;
+	margin-top: 10px;
+	line-height: 24px;
 }
