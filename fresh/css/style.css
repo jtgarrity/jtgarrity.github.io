@@ -158,6 +158,10 @@ p {
 	margin-bottom: 20px;
 }
 
+.feature-section h3 {
+	margin-top: 0;
+}
+
 .features {
 	padding-top: 30px;
 }
