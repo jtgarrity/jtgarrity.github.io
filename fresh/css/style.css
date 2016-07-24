@@ -153,6 +153,15 @@ p {
 	padding: 100px 0 100px 0;
 }
 
+.feature-section img {
+	max-height: 140px;
+	margin-bottom: 20px;
+}
+
+.features {
+	padding-top: 30px;
+}
+
 .customer-section {
 	background: #F9FAFA;
 	padding: 20px;
