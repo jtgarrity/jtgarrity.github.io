@@ -172,7 +172,7 @@ p {
 }
 
 .case-section {
-	padding: 100px;
+	padding: 100px 0 100px 0;
 }
 
 .case-description {
@@ -184,11 +184,11 @@ p {
 }
 
 .news-section {
-	padding: 100px;
+	padding: 100px 0 100px 0;
 }
 
 .contact-section {
-	padding: 100px;
+	padding: 100px 0 100px 0;
 }
 
 .customer-logo {
