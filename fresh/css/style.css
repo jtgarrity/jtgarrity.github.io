@@ -156,8 +156,6 @@ p {
 .footer a {
 	color: #d5d5d5;
 }
-
-
 /* Home Page */
 
 .lead-section {
@@ -181,6 +179,10 @@ p {
 
 .feature-section h3 {
 	margin-top: 0;
+}
+
+.feature-headline {
+	margin-bottom: 40px;
 }
 
 .solution {
@@ -239,6 +241,15 @@ p {
 	padding: 50px 20px 50px 20px;
 }
 
+.contact-header {
+padding: 20px 0 10px 0;
+}
+
+.contact-locations {
+	margin-top: 40px;
+	padding: 20px 0 10px 0;
+}
+
 .tagup-logo {
 	height: 33px;
 	margin-top: -6px
@@ -247,8 +258,6 @@ p {
 .news-section {
 	background: #F9FAFA;
 }
-
-
 /* About Page Styles */
 
 .about-intro {
@@ -277,8 +286,6 @@ p {
 .advisory-board {
 	padding: 25px 0 130px 0;
 }
-
-
 /* Solution Page Styles */
 
 .solution-intro {
@@ -413,6 +420,7 @@ p {
 
 #solution .snippets {
 	/* mixin found in partials/snippets */
+	
 	margin-top: 100px;
 }
 
@@ -553,8 +561,6 @@ p {
 #solution .snippets .feature.last .image img {
 	margin-left: 70px;
 }
-
-
 /* Case Section */
 
 .case-study {
