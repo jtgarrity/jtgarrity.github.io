@@ -206,7 +206,7 @@ p {
 }
 
 .news-section {
-	padding: 100px 0 100px 0;
+	padding: 50px 0 50px 0;
 }
 
 .contact-section {
@@ -226,6 +226,7 @@ p {
 	-webkit-filter: grayscale(100%);
 	filter: grayscale(100%);
 	padding: 0 20px 5px 20px;
+	margin-bottom: 15px;
 }
 
 .customer-logo li {
@@ -233,6 +234,10 @@ p {
 	margin-right: -.25em;
 	position: relative;
 	top: 1.25em;
+}
+
+.contact-image {
+	padding: 50px 20px 50px 20px;
 }
 
 .tagup-logo {
