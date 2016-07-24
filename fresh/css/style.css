@@ -29,6 +29,14 @@ p {
 	margin-bottom: 15px;
 }
 
+.small-heading {
+	letter-spacing: .15em;
+	color: #bec8ce;
+	text-transform: uppercase;
+	font-weight: 500;
+	line-height: 1.2;
+}
+
 .text-left {
 	text-align: left;
 }
@@ -63,6 +71,16 @@ p {
 
 .text-muted {
 	color: #aaaaaa;
+}
+
+.btn-custom {
+	background-color: #FF4F00;
+	color: white;
+}
+
+.btn-custom:hover {
+	background-color: #BA160C;
+	color: white;
 }
 
 .navbar.normal {
@@ -186,7 +204,7 @@ p {
 }
 
 .news-section {
-	padding: 100px 0 100px 0;
+	padding: 50px 0 50px 0;
 }
 
 .contact-section {
@@ -195,15 +213,18 @@ p {
 
 .customer-logo {
 	text-align: center;
+	display: inline-block;
 }
 
 .customer-logo img {
 	display: inline-block;
 	max-width: 100%;
-	max-height: 50px;
+	max-height: 45px;
+	vertical-align: middle;
 	-webkit-filter: grayscale(100%);
 	filter: grayscale(100%);
 	padding: 0 20px 5px 20px;
+	margin-bottom: 15px;
 }
 
 .customer-logo li {
@@ -211,6 +232,10 @@ p {
 	margin-right: -.25em;
 	position: relative;
 	top: 1.25em;
+}
+
+.contact-image {
+	padding: 50px 20px 50px 20px;
 }
 
 .tagup-logo {
