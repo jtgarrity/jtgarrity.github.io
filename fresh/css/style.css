@@ -126,35 +126,18 @@ p {
 	color: white;
 }
 
-#footer-white {
-	background: #fff;
-	padding-top: 0px;
-	padding-bottom: 30px;
-	-webkit-font-smoothing: antialiased;
-}
 
-@media (max-width: 991px) {
-	#footer-white {
-		padding-top: 30px;
-	}
-}
-
-#footer-white .credits {
-	margin-top: 30px;
-}
-
-#footer-white .credits .col-md-12 {
-	padding-top: 20px;
-	font-size: 13px;
-	text-align: center;
-	color: #A1AAB6;
-}
 
 .footer {
-	color: grey;
+	color: #d5d5d5;
 	height: 60px;
-	background: #F9FAFA;
+	background: #223741;
 	padding: 20px;
+	text-decoration: none;
+}
+
+.footer a {
+color: #d5d5d5;	
 }
 /* Home Page */
 
