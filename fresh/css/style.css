@@ -9,10 +9,6 @@ html {
 	font-smoothing: antialiased;
 }
 
-body {
-	padding-bottom: 70px;
-}
-
 .container {
 	max-width: 970px;
 }
