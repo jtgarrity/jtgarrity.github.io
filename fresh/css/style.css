@@ -9,6 +9,10 @@ html {
 	font-smoothing: antialiased;
 }
 
+body {
+	padding-bottom: 70px;
+}
+
 .container {
 	max-width: 970px;
 }
@@ -27,6 +31,14 @@ p {
 	color: #666;
 	line-height: 23px;
 	margin-bottom: 15px;
+}
+
+.small-heading {
+	letter-spacing: .15em;
+	color: #bec8ce;
+	text-transform: uppercase;
+	font-weight: 500;
+	line-height: 1.2;
 }
 
 .text-left {
@@ -63,6 +75,16 @@ p {
 
 .text-muted {
 	color: #aaaaaa;
+}
+
+.btn-custom {
+	background-color: #FF4F00;
+	color: white;
+}
+
+.btn-custom:hover {
+	background-color: #BA160C;
+	color: white;
 }
 
 .navbar.normal {
@@ -193,12 +215,14 @@ p {
 
 .customer-logo {
 	text-align: center;
+	display: inline-block;
 }
 
 .customer-logo img {
 	display: inline-block;
 	max-width: 100%;
-	max-height: 50px;
+	max-height: 45px;
+	vertical-align: middle;
 	-webkit-filter: grayscale(100%);
 	filter: grayscale(100%);
 	padding: 0 20px 5px 20px;
