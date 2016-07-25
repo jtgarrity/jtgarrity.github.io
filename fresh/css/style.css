@@ -711,85 +711,71 @@ p {
 }
 /* Case Studies Styles */
 
-#cases #hero {
-	margin-top: 100px;
+.case-image {
+	max-height: 370px;
 }
 
-@media (min-width: 992px) {
-	#cases #hero .row {
-		border-bottom: 1px solid #E6E6E8;
-	}
-}
-
-@media (max-width: 991px) {
-	#cases #hero .image img {
-		margin: 0 auto;
-	}
-}
-
-@media (min-width: 992px) {
-	#cases #hero .info {
-		padding-left: 60px;
-	}
+.case-header {
+	padding-top: 90px;
 }
 
 @media (max-width: 991px) {
-	#cases #hero .info {
+	.case-header {
 		text-align: center;
+		padding: 50px 50px 20px 50px;
 	}
 }
 
-#cases #hero .info h3 {
-	font-family: Myriad Pro, Lato, Helvetica Neue, Arial;
-	font-weight: 500;
-	margin-top: 70px;
-	font-size: 28px;
+.stats {
+	padding: 20px;
 }
 
-#cases #hero .info p {
-	color: #666;
-	margin-top: 10px;
-	margin-bottom: 70px;
+.actual-cases {
+	padding-bottom: 100px;
 }
 
-@media (min-width: 992px) {
-	#cases #hero .info p {
-		width: 85%;
-	}
+.actual-cases h4 {
+	padding-top: 30px;
 }
 
-@media (max-width: 991px) {
-	#cases .actual-cases {
-		margin-top: 50px;
-	}
-}
-
-#cases .actual-cases .header {
-	border-top: 1px solid #E6E6E8;
+.actual-cases .header {
 	padding-top: 55px;
-	margin-bottom: 35px;
 }
 
-#cases .actual-cases .header h3 {
-	font-size: 27px;
-	font-family: Myriad Pro, Lato, Helvetica Neue, Arial;
-	color: #444;
-	line-height: 25px;
-	font-weight: 500;
-	margin-bottom: 20px;
+.testimonial {
+	padding: 0 20px 0 20px;
+}
+
+.testimonial i {
+	margin-top: 40px;
+	color: #FF4F00;
+}
+
+.actual-cases .header .testimonial p {
+	font-weight: 600;
+	color: #666;
+}
+
+.actual-cases .header .testimonial .customer-name {
+	color: gray;
+	font-weight: 400;
+	margin-bottom: 0;
+}
+
+.actual-cases .header .testimonial .customer-title {
+	color: #bec8ce;
+	font-size: 12px;
+	font-weight: 400;
+	margin-top: -4px;
 }
 
 @media (max-width: 991px) {
-	#cases .actual-cases .header h3 {
+	.actual-cases .header h3 {
 		text-align: center;
 	}
 }
 
-#cases .actual-cases .header .panel {
-	margin-top: 20px;
-}
-
-#cases .actual-cases .header p {
+.actual-cases .header p {
 	font-size: 15px;
 	font-weight: 400;
 	color: #666;
@@ -797,22 +783,14 @@ p {
 	margin-top: 15px;
 }
 
-@media (max-width: 991px) {
-	#cases .actual-cases .header p {
-		margin: 0 auto;
-		width: 90%;
-		text-align: center;
-	}
-}
-
-#cases .actual-cases .header li {
+.actual-cases .header li {
 	font-size: 15px;
 	font-weight: 400;
 	color: #666;
 	line-height: 24px;
 }
 
-#cases .actual-cases .features {
+.actual-cases .features {
 	margin-bottom: 20px;
 }
 
@@ -823,14 +801,14 @@ p {
 	}
 }
 
-#cases .actual-cases .features .feature img {
+.actual-cases .features .feature img {
 	max-width: 40px;
 	position: relative;
 	top: 10px;
 }
 
 @media (min-width: 992px) {
-	#cases .actual-cases .features .feature img {
+	.actual-cases .features .feature img {
 		float: left;
 	}
 }
@@ -843,18 +821,15 @@ p {
 	}
 }
 
-#cases .actual-cases .features .feature .info strong {
-	display: block;
-	font-weight: 500;
-	font-size: 16px;
-	color: #444;
-	margin-top: 15px;
+.statcard-number {
+	margin-top: 0;
+	margin-bottom: 0;
 }
 
-#cases .actual-cases .features .feature .info p {
-	font-weight: normal;
-	font-size: 14px;
-	color: #797979;
-	margin-top: 10px;
-	line-height: 24px;
+.statcard-desc {
+	font-size: 85%;
+	letter-spacing: .15em;
+	color: #888888;
+	text-transform: uppercase;
+	margin-right: 30px;
 }
