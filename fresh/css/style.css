@@ -624,34 +624,30 @@ p {
 }
 
 @media (min-width: 992px) {
-	#cases #hero .info p {
+	.info p {
 		width: 85%;
 	}
 }
 
 @media (max-width: 991px) {
-	#cases .actual-cases {
+	.actual-cases {
 		margin-top: 50px;
 	}
 }
 
-#cases .actual-cases .header {
+.actual-cases h4 {
+	padding-top: 30px;
+}
+
+.actual-cases .header {
 	border-top: 1px solid #E6E6E8;
 	padding-top: 55px;
 	margin-bottom: 35px;
 }
 
-#cases .actual-cases .header h3 {
-	font-size: 27px;
-	font-family: Myriad Pro, Lato, Helvetica Neue, Arial;
-	color: #444;
-	line-height: 25px;
-	font-weight: 500;
-	margin-bottom: 20px;
-}
 
 @media (max-width: 991px) {
-	#cases .actual-cases .header h3 {
+	.actual-cases .header h3 {
 		text-align: center;
 	}
 }
@@ -668,15 +664,7 @@ p {
 	margin-top: 15px;
 }
 
-@media (max-width: 991px) {
-	#cases .actual-cases .header p {
-		margin: 0 auto;
-		width: 90%;
-		text-align: center;
-	}
-}
-
-#cases .actual-cases .header li {
+.actual-cases .header li {
 	font-size: 15px;
 	font-weight: 400;
 	color: #666;
@@ -728,4 +716,17 @@ p {
 	color: #797979;
 	margin-top: 10px;
 	line-height: 24px;
+}
+
+.statcard-number {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.statcard-desc {
+	font-size: 85%;
+	letter-spacing: .15em;
+	color: #888888;
+	text-transform: uppercase;
+	margin-right: 30px;
 }
