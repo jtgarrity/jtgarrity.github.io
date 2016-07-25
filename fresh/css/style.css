@@ -118,6 +118,12 @@ p {
 	}
 }
 
+@media (min-width: 768px) {
+	.navbar-fixed-bottom {
+		margin-top: 300px;
+	}
+}
+
 .navbar.normal .navbar-collapse .navbar-nav > li {
 	float: none;
 	display: inline-block;
@@ -172,7 +178,7 @@ p {
 	padding: 100px 0 100px 0;
 }
 
-.feature-section h4{
+.feature-section h4 {
 	text-align: center;
 }
 
