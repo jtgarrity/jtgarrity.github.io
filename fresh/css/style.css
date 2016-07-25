@@ -156,8 +156,6 @@ p {
 .footer a {
 	color: #d5d5d5;
 }
-
-
 /* Home Page */
 
 .lead-section {
@@ -174,9 +172,15 @@ p {
 	padding: 100px 0 100px 0;
 }
 
+.feature-section h4{
+	text-align: center;
+}
+
 .feature-section img {
 	max-height: 140px;
 	margin-bottom: 20px;
+	display: block;
+	margin: auto;
 }
 
 .feature-section h3 {
@@ -261,8 +265,6 @@ p {
 .news-section {
 	background: #F9FAFA;
 }
-
-
 /* About Page Styles */
 
 .about-intro {
@@ -291,8 +293,6 @@ p {
 .advisory-board {
 	padding: 25px 0 130px 0;
 }
-
-
 /* Solution Page Styles */
 
 .solution-intro {
@@ -427,6 +427,7 @@ p {
 
 #solution .snippets {
 	/* mixin found in partials/snippets */
+	
 	margin-top: 100px;
 }
 
@@ -460,7 +461,12 @@ p {
 
 #solution .snippets .feature {
 	margin-top: 55px;
-	-webkit-font-smoothing: antialiased;
+}
+
+#solution .snippets .feature img {
+	max-height: 250px;
+	display: block;
+	margin: auto;
 }
 
 @media (min-width: 992px) {
@@ -471,7 +477,8 @@ p {
 		float: left;
 	}
 	#solution .snippets .feature.backwards .image img {
-		margin: 0 auto;
+		display: block;
+		margin: auto;
 	}
 }
 
@@ -567,8 +574,6 @@ p {
 #solution .snippets .feature.last .image img {
 	margin-left: 70px;
 }
-
-
 /* Case Studies Styles */
 
 #cases #hero {
