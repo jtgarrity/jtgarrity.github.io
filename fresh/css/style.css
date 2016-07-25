@@ -18,10 +18,19 @@ html {
 	margin-bottom: -20px;
 }
 
-h1 {
+h1,
+h3,
+h4,
+h5,
+h6{
 	font-family: Helvetica Neue, Arial;
 	color: #444;
-	font-weight: 700;
+	font-weight: 300;
+}
+h2 {
+	  color: Black;
+    font-weight: 300;
+    font-size: 28px;
 }
 
 p {
@@ -308,7 +317,22 @@ p {
 
 .feature-section h4 {
 	text-align: center;
+	    display: block;
+    font-weight: 400;
+    font-size: 17px;
+    color: #383a35;
+    margin-top: 15px;
 }
+
+.feature-section .header-description {
+	font-weight: 300;
+    font-size: 17px;
+    color: #757575;
+	padding-bottom: 50px;
+	
+}
+
+
 
 .feature-section img {
 	max-height: 140px;
