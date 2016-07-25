@@ -205,7 +205,8 @@ p {
 
 .lead-section {
 	padding: 100px 0 100px 0;
-	background: url(https://upload.wikimedia.org/wikipedia/commons/7/7c/Barry_Electric_Power_Plant_at_the_Mobile_River%2C_AL.jpg) no-repeat center center;
+	background: url(https://images.unsplash.com/photo-1464655646192-3cb2ace7a67e?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=7bd13db3b64ce66833f51169e9e6e5e5) no-repeat center center;
+	background-position: center 100%;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -773,7 +774,8 @@ p {
 
 .case-heading {
 	padding: 100px 0 100px 0;
-	background: url(http://www.eco3.co.za/images/10000_Litre_day_reverse_osmosis_system_a.JPG) no-repeat center center;
+	background: url(../img/case.jpg) no-repeat center center;
+	background-position: center 100%;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -781,6 +783,7 @@ p {
 	position: relative;
 	color: white;
 	text-align: center;
+	box-shadow: 0px 1px 3px 1px rgba(46, 46, 46, 0.3), inset rgba(255, 255, 255, 0.2) 0 1px 1px;
 }
 
 .case-heading h1 {
