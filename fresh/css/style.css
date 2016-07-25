@@ -44,9 +44,9 @@ p {
 	display: inline-block;
 	vertical-align: middle;
 	zoom: 1;
-	color: #ff4f00;
+	color: #fff;
 	padding: 12px 31px;
-	border: 2px solid #ff4f00;
+	border: 2px solid #fff;
 	border-radius: 4px;
 	font-size: 16px;
 	font-weight: 400;
@@ -61,8 +61,8 @@ p {
 
 .button-demo:hover {
 	text-decoration: none;
-	color: #fff;
-	border-color: #fff;
+	color: #ff4f00;
+	border-color: #ff4f00;
 }
 
 .small-heading {
@@ -112,10 +112,11 @@ p {
 .btn-custom {
 	background-color: #FF4F00;
 	color: white;
+	font-weight: 700;
 }
 
 .btn-custom:hover {
-	background-color: #BA160C;
+	background-color: #e54700;
 	color: white;
 }
 
@@ -192,6 +193,7 @@ p {
 	background: #223741;
 	padding: 20px;
 	text-decoration: none;
+	font-size: 13px;
 }
 
 .footer a {
@@ -396,8 +398,20 @@ p {
 	padding: 50px 0 50px 0;
 }
 
+.news-section h5 {
+	font-size: 15px;
+}
+
+.news-section p {
+	color: #888;
+}
+
 .contact-section {
 	padding: 100px 0 100px 0;
+}
+
+.contact-img {
+	padding-top: 60px;
 }
 
 .customer-logo {
@@ -453,10 +467,8 @@ p {
 
 .intro-header {
 	font-size: 24px;
-	font-family: Myriad Pro, Lato, Helvetica Neue, Arial;
 	color: #444;
 	line-height: 25px;
-	font-weight: 500;
 	margin-bottom: 25px;
 }
 
@@ -518,7 +530,7 @@ p {
 }
 
 #solution #tabs .tabs-wrapper .nav-tabs li.active a {
-	color: #2B69A2;
+	color: #ff4f00;
 	font-weight: 400;
 	border-bottom: 0px;
 }
@@ -528,7 +540,7 @@ p {
 	position: absolute;
 	width: 100%;
 	height: auto;
-	border-bottom: 2px solid #7BA3C9;
+	border-bottom: 2px solid #ff4f00;
 	left: 1px;
 	bottom: -1px;
 }
@@ -547,7 +559,7 @@ p {
 }
 
 #solution #tabs .tabs-wrapper .nav-tabs li a:hover {
-	color: #2B69A2;
+	color: #ff4f00;
 	background: none;
 }
 
@@ -577,8 +589,7 @@ p {
 }
 
 #solution #tabs .tabs-wrapper .tab-content .tab-pane .info h4 {
-	color: #3B88B6;
-	font-weight: normal;
+	font-weight: 500px;
 	font-size: 19px;
 	line-height: 25px;
 	margin-top: 35px;
@@ -669,8 +680,8 @@ p {
 }
 
 #solution .snippets .feature .info h4 {
-	color: #3B88B6;
-	font-weight: normal;
+	color: #6C7279;
+	font-weight: 500;
 	font-size: 19px;
 	line-height: 25px;
 	margin-top: 35px;
