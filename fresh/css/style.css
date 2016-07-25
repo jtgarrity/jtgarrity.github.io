@@ -188,6 +188,7 @@ p {
 
 .footer {
 	color: #d5d5d5;
+	box-shadow: 0px 1px 3px 1px rgba(46, 46, 46, 0.3), inset rgba(255, 255, 255, 0.2) 0 1px 1px;
 	height: 60px;
 	background: #223741;
 	padding: 20px;
