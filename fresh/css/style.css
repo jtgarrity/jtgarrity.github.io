@@ -360,7 +360,7 @@ p {
 
 
 .feature-section img {
-	max-height: 140px;
+	max-height: 180px;
 	margin-bottom: 20px;
 	display: block;
 	margin: auto;
@@ -625,6 +625,7 @@ p {
 	/* mixin found in partials/snippets */
 	
 	margin-top: 100px;
+	padding-top: 100px;
 	background: #F9FAFA;
 
 }
