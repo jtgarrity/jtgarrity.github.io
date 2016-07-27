@@ -210,8 +210,8 @@ p {
 
 .lead-section {
 	padding: 100px 0 100px 0;
-	background: url(https://images.unsplash.com/photo-1464655646192-3cb2ace7a67e?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=7bd13db3b64ce66833f51169e9e6e5e5) no-repeat center center;
-	background-position: center 100%;
+	background: url(https://images.unsplash.com/photo-1469389335181-2198b4caa734?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=4e1ad3c64d5a4fccab501462e4dd4f1c) no-repeat center center;
+	background-position: center 25%;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -323,16 +323,6 @@ p {
 		padding: 12px 25px;
 		margin: 0px 15px 15px 0px;
 	}
-}
-
-.lead-section .img {
-	position: absolute;
-	top: 15px;
-	left: 625px;
-	width: 570px;
-	height: 333px;
-	background-image: url("../img/whatwedo.png");
-	background-repeat: no-repeat;
 }
 
 @media (max-width: 991px) {
@@ -530,6 +520,9 @@ p {
 	border-bottom: 2px solid #EDEDED;
 }
 
+.whatwedoimg{
+	max-width: 40%;
+}
 @media (max-width: 991px) {
 	#solution #tabs .tabs-wrapper .nav-tabs {
 		display: none;
