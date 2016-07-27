@@ -22,15 +22,16 @@ h1,
 h3,
 h4,
 h5,
-h6{
+h6 {
 	font-family: Helvetica Neue, Arial;
 	color: #444;
 	font-weight: 300;
 }
+
 h2 {
-	  color: Black;
-    font-weight: 300;
-    font-size: 28px;
+	color: Black;
+	font-weight: 300;
+	font-size: 28px;
 }
 
 p {
@@ -200,7 +201,11 @@ p {
 .footer a {
 	color: #d5d5d5;
 }
+
+
 /* Home Page */
+
+
 /* leadsection */
 
 .lead-section {
@@ -326,7 +331,7 @@ p {
 	left: 625px;
 	width: 570px;
 	height: 333px;
-	background-image: url("../img/");
+	background-image: url("../img/whatwedo.png");
 	background-repeat: no-repeat;
 }
 
@@ -342,22 +347,19 @@ p {
 
 .feature-section h4 {
 	text-align: center;
-	    display: block;
-    font-weight: 400;
-    font-size: 17px;
-    color: #383a35;
-    margin-top: 15px;
+	display: block;
+	font-weight: 400;
+	font-size: 17px;
+	color: #383a35;
+	margin-top: 15px;
 }
 
 .feature-section .header-description {
 	font-weight: 300;
-    font-size: 17px;
-    color: #757575;
+	font-size: 17px;
+	color: #757575;
 	padding-bottom: 50px;
-	
 }
-
-
 
 .feature-section img {
 	max-height: 180px;
@@ -381,6 +383,7 @@ p {
 .request-demo-link {
 	padding-bottom: 50px;
 }
+
 .customer-section {
 	background: #f8fcfe;
 	padding: 20px;
@@ -464,6 +467,8 @@ p {
 .news-section {
 	background: #F9FAFA;
 }
+
+
 /* About Page Styles */
 
 .about-intro {
@@ -490,6 +495,8 @@ p {
 .advisory-board {
 	padding: 25px 0 130px 0;
 }
+
+
 /* Solution Page Styles */
 
 .solution-intro {
@@ -623,11 +630,9 @@ p {
 
 #solution .snippets {
 	/* mixin found in partials/snippets */
-	
 	margin-top: 100px;
 	padding-top: 100px;
 	background: #F9FAFA;
-
 }
 
 @media (max-width: 991px) {
@@ -773,6 +778,8 @@ p {
 #solution .snippets .feature.last .image img {
 	margin-left: 70px;
 }
+
+
 /* Case Studies Styles */
 
 .case-heading {
@@ -836,7 +843,6 @@ p {
 	position: relative;
 	z-index: 33;
 }
-
 
 .case-image {
 	max-height: 370px;
