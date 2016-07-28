@@ -954,3 +954,10 @@ p {
 	text-transform: uppercase;
 	margin-right: 30px;
 }
+
+/* terms */
+#postings ol {
+	  color: #666;
+    line-height: 23px;
+    margin-bottom: 15px;
+}
