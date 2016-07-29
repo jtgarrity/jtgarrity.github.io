@@ -18,6 +18,10 @@ html {
 	padding-top: 100px;
 }
 
+.padding-bottom {
+	padding-bottom: 70px;
+}
+
 .navbar {
 	margin-bottom: -20px;
 }
@@ -523,12 +527,8 @@ p {
 	filter: grayscale(100%);
 }
 
-.executive-team {
-	padding: 50px;
-}
-
-.advisory-board {
-	padding: 25px 0 130px 0;
+.executiveadvisory-team {
+	padding: 50px 0 15px 0;
 }
 
 
