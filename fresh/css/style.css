@@ -14,6 +14,10 @@ html {
 	max-width: 970px;
 }
 
+.padding-top {
+	padding-top: 100px;
+}
+
 .navbar {
 	margin-bottom: -20px;
 }
@@ -531,7 +535,7 @@ p {
 /* Solution Page Styles */
 
 .solution-intro {
-	padding: 100px 0 0 0;
+	padding: 50px 0 0 0;
 }
 
 #solution #tabs .header {
