@@ -52,19 +52,20 @@ html {
 
 .hiring {
 	font-family: "Lato", "Helvetica Neue", Arial;
-    font-weight: 700;
-    letter-spacing: .3px;
-    text-transform: uppercase;
-    word-spacing: 1.5px;
-    font-size: 11px;
-    margin-left: 4px;
-    padding: 3px 8px;
-    border-radius: 4px;
-    color: #fff;
-    background: #ff4f00;
+	font-weight: 700;
+	letter-spacing: .3px;
+	text-transform: uppercase;
+	word-spacing: 1.5px;
+	font-size: 11px;
+	margin-left: 4px;
+	padding: 3px 8px;
+	border-radius: 4px;
+	color: #fff;
+	background: #ff4f00;
 }
+
 .hiring:hover {
-	background:#e54700;
+	background: #e54700;
 }
 
 h1,
@@ -239,28 +240,27 @@ p {
 
 @media (min-width: 550px) {
 	.footer {
-	color: #d5d5d5;
-	box-shadow: 0px 1px 3px 1px rgba(46, 46, 46, 0.3), inset rgba(255, 255, 255, 0.2) 0 1px 1px;
-	height: 60px;
-	background: #223741;
-	padding-top: 20px;
-	text-decoration: none;
-	font-size: 13px;
-}
-}
-@media (max-width: 549px) {
-	.footer{
 		color: #d5d5d5;
-	box-shadow: 0px 1px 3px 1px rgba(46, 46, 46, 0.3), inset rgba(255, 255, 255, 0.2) 0 1px 1px;
-	height: 60px;
-		padding: 20px 0 70px 0;
-	background: #223741;
-	text-decoration: none;
-	font-size: 13px;
+		box-shadow: 0px 1px 3px 1px rgba(46, 46, 46, 0.3), inset rgba(255, 255, 255, 0.2) 0 1px 1px;
+		height: 60px;
+		background: #223741;
+		padding-top: 20px;
+		text-decoration: none;
+		font-size: 13px;
 	}
 }
 
-
+@media (max-width: 549px) {
+	.footer {
+		color: #d5d5d5;
+		box-shadow: 0px 1px 3px 1px rgba(46, 46, 46, 0.3), inset rgba(255, 255, 255, 0.2) 0 1px 1px;
+		height: 60px;
+		padding: 20px 0 70px 0;
+		background: #223741;
+		text-decoration: none;
+		font-size: 13px;
+	}
+}
 
 .footer a {
 	color: #d5d5d5;
@@ -389,6 +389,12 @@ p {
 	}
 }
 
+@media (min-width: 992px) {
+	.knowledge {
+		padding-top: 16px;
+	}
+}
+
 @media (max-width: 991px) {
 	.lead-section .img {
 		display: none;
@@ -472,8 +478,28 @@ p {
 	padding: 100px 0 100px 0;
 }
 
+.contactform-intropage {
+	padding-top: 83px;
+}
+
 .contact-img {
 	padding-top: 60px;
+}
+
+@media (min-width:992px){
+	.model-img {
+	position: relative; 
+	right:50px;
+	}
+	.anywhere-img{
+		position: relative; 
+	right:80px;
+	}
+	.picture-left {
+	position: relative; 
+	left:20px;
+		}
+}
 }
 
 .customer-logo {
@@ -578,10 +604,6 @@ p {
 #solution #tabs .tabs-wrapper .nav-tabs {
 	text-align: center;
 	border-bottom: 2px solid #EDEDED;
-}
-
-.whatwedoimg {
-	max-width: 40%;
 }
 
 @media (max-width: 991px) {
