@@ -549,6 +549,21 @@ p {
 }
 
 
+
+.plugplay {
+	width:50%;
+	padding-bottom:25%;
+	background: url('../img/plugplay3x.gif');
+	background-size: cover;
+}
+.plugplay:hover {
+	width:50%;
+	padding-bottom:25%;
+	background: url('../img/plugplay.gif');
+	background-size: cover;
+}
+
+
 /* Team Page Styles */
 
 .team-intro {
@@ -854,6 +869,8 @@ p {
 #solution .snippets .feature.last .image img {
 	margin-left: 70px;
 }
+
+
 
 
 /* Case Studies Styles */
