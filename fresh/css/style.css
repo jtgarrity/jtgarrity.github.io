@@ -15,7 +15,11 @@ html {
 }
 
 .padding-top {
-	padding-top: 100px;
+	padding-top: 80px;
+}
+
+.padding-bottom {
+	padding-bottom: 100px;
 }
 
 .padding-bottom {
@@ -1039,6 +1043,13 @@ p {
 	margin-right: 30px;
 }
 
+
+/* Jobs page styling */
+
+.job-title {
+	text-transform: uppercase;
+	font-weight: 600;
+}
 
 /* terms */
 
