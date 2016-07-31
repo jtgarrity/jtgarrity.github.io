@@ -1048,6 +1048,13 @@ p {
 	margin-right: 30px;
 }
 
+/* Jobs page styling */
+
+.job-title {
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
 /* terms */
 #postings ol {
 	color: #666;
