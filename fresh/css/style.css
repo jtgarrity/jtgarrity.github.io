@@ -553,6 +553,38 @@ p {
 		background: url('../img/plugplay.gif') no-repeat center;
 		background-size: contain;
 	}
+	.security {
+		padding-bottom: 25%;
+		background: url('../img/security3x.gif') no-repeat center;
+		background-size: contain;
+	}
+	
+	.security:hover {
+		padding-bottom: 25%;
+		background: url('../img/security.gif') no-repeat center;
+		background-size: contain;
+	}
+	.real-time {
+		padding-bottom: 25%;
+		background: url('../img/real-time3x.gif') no-repeat center;
+		background-size: contain;
+	}
+	
+	.real-time:hover {
+		padding-bottom: 25%;
+		background: url('../img/real-time.gif') no-repeat center;
+		background-size: contain;
+	}
+	.integrate {
+		padding-bottom: 25%;
+		background: url('../img/integrate3x.gif') no-repeat center;
+		background-size: contain;
+	}
+	.integrate:hover {
+		padding-bottom: 25%;
+		background: url('../img/integrate.gif') no-repeat center;
+		background-size: contain;
+	}
 }
 @media (max-width: 991px){
 	.plugplay {
@@ -564,6 +596,37 @@ p {
 	.plugplay:hover {
 		padding-bottom: 50%;
 		background: url('../img/plugplay.gif') no-repeat center;
+		background-size: contain;
+	}
+	.security {
+		padding-bottom: 50%;
+		background: url('../img/security3x.gif') no-repeat center;
+		background-size: contain;
+	}
+	
+	.security:hover {
+		padding-bottom: 50%;
+		background: url('../img/security.gif') no-repeat center;
+		background-size: contain;
+	}
+	.real-time {
+		padding-bottom: 50%;
+		background: url('../img/real-time3x.gif') no-repeat center;
+		background-size: contain;
+	}
+	.real-time:hover {
+		padding-bottom: 50%;
+		background: url('../img/real-time.gif') no-repeat center;
+		background-size: contain;
+	}
+	.integrate {
+		padding-bottom: 50%;
+		background: url('../img/integrate3x.gif') no-repeat center;
+		background-size: contain;
+	}
+	.integrate:hover {
+		padding-bottom: 50%;
+		background: url('../img/integrate.gif') no-repeat center;
 		background-size: contain;
 	}
 }
