@@ -265,11 +265,7 @@ p {
 .footer a {
 	color: #d5d5d5;
 }
-
-
 /* Home Page */
-
-
 /* leadsection */
 
 .lead-section {
@@ -482,11 +478,12 @@ p {
 	padding-top: 83px;
 }
 
-.contact-img {
+.img-connect {
 	padding-top: 60px;
+	width: 120%;
 }
 
-@media (min-width:992px) {
+@media (min-width: 992px) {
 	.model-img {
 		position: relative;
 		right: 50px;
@@ -500,8 +497,6 @@ p {
 		left: 20px;
 	}
 }
-
-
 }
 .customer-logo {
 	text-align: center;
@@ -542,7 +537,7 @@ p {
 .news-section {
 	background: #F9FAFA;
 }
-@media (min-width:992px) {
+@media (min-width: 992px) {
 	.plugplay {
 		padding-bottom: 25%;
 		background: url('../img/plugplay3x.gif') no-repeat center;
@@ -554,6 +549,7 @@ p {
 		background: url('../img/plugplay.gif') no-repeat center;
 		background-size: contain;
 	}
+	
 	.security {
 		padding-bottom: 25%;
 		background: url('../img/security3x.gif') no-repeat center;
@@ -565,6 +561,7 @@ p {
 		background: url('../img/security.gif') no-repeat center;
 		background-size: contain;
 	}
+	
 	.real-time {
 		padding-bottom: 25%;
 		background: url('../img/real-time3x.gif') no-repeat center;
@@ -576,18 +573,20 @@ p {
 		background: url('../img/real-time.gif') no-repeat center;
 		background-size: contain;
 	}
+	
 	.integrate {
 		padding-bottom: 25%;
 		background: url('../img/integrate3x.gif') no-repeat center;
 		background-size: contain;
 	}
+	
 	.integrate:hover {
 		padding-bottom: 25%;
 		background: url('../img/integrate.gif') no-repeat center;
 		background-size: contain;
 	}
 }
-@media (max-width: 991px){
+@media (max-width: 991px) {
 	.plugplay {
 		padding-bottom: 50%;
 		background: url('../img/plugplay3x.gif') no-repeat center;
@@ -599,6 +598,7 @@ p {
 		background: url('../img/plugplay.gif') no-repeat center;
 		background-size: contain;
 	}
+	
 	.security {
 		padding-bottom: 50%;
 		background: url('../img/security3x.gif') no-repeat center;
@@ -610,29 +610,33 @@ p {
 		background: url('../img/security.gif') no-repeat center;
 		background-size: contain;
 	}
+	
 	.real-time {
 		padding-bottom: 50%;
 		background: url('../img/real-time3x.gif') no-repeat center;
 		background-size: contain;
 	}
+	
 	.real-time:hover {
 		padding-bottom: 50%;
 		background: url('../img/real-time.gif') no-repeat center;
 		background-size: contain;
 	}
+	
 	.integrate {
 		padding-bottom: 50%;
 		background: url('../img/integrate3x.gif') no-repeat center;
 		background-size: contain;
 	}
+	
 	.integrate:hover {
 		padding-bottom: 50%;
 		background: url('../img/integrate.gif') no-repeat center;
 		background-size: contain;
 	}
 }
-
 /* Team Page Styles */
+
 .team-intro {
 	padding: 100px 0 0 0;
 }
@@ -650,8 +654,8 @@ p {
 .executiveadvisory-team {
 	padding: 50px 0 15px 0;
 }
-
 /* Solution Page Styles */
+
 .solution-intro {
 	padding: 50px 0 0 0;
 }
@@ -893,8 +897,8 @@ p {
 #solution .snippets .feature.last .image img {
 	margin-left: 70px;
 }
-
 /* Case Studies Styles */
+
 .case-heading {
 	padding: 100px 0 100px 0;
 	background: url(../img/case.jpg) no-repeat center center;
@@ -1048,15 +1052,14 @@ p {
 	text-transform: uppercase;
 	margin-right: 30px;
 }
-
 /* Jobs page styling */
 
 .job-title {
 	text-transform: uppercase;
 	font-weight: 600;
 }
-
 /* terms */
+
 #postings ol {
 	color: #666;
 	line-height: 23px;
