@@ -475,7 +475,7 @@ p {
 }
 
 .contact-section {
-	padding: 100px 0 100px 0;
+	padding: 100px 0 170px 0;
 }
 
 .contactform-intropage {
@@ -507,6 +507,7 @@ p {
 	text-align: center;
 	display: inline-block;
 	padding-left: 0;
+	align-content: center;
 }
 .customer-logo img {
 	display: inline-block;
