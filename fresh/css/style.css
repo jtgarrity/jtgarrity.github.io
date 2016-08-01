@@ -420,6 +420,7 @@ p {
 .feature-section img {
 	max-height: 180px;
 	margin-bottom: 20px;
+	max-width: 75%;
 	display: block;
 	margin: auto;
 }
@@ -513,6 +514,7 @@ p {
 	filter: grayscale(100%);
 	padding: 0 17px 0 17px;
 	margin-bottom: 15px;
+	margin-left: 25px;
 }
 .customer-logo li {
 	display: inline-block;
