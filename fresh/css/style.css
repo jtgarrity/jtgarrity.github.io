@@ -495,7 +495,7 @@ p {
 	}
 	.picture-left {
 		position: relative;
-		left: 20px;
+		left: 15px;
 	}
 }
 }
@@ -734,7 +734,7 @@ p {
 		opacity: 1;
 		filter: alpha(opacity=100);
 		height: auto;
-		text-align: center;
+		text-align: left;
 		margin-bottom: 70px;
 	}
 }
@@ -759,7 +759,6 @@ p {
 }
 @media (max-width: 991px) {
 	#solution #tabs .tabs-wrapper .tab-content .tab-pane .info p {
-		margin: 0 auto;
 		width: 95%;
 	}
 }
