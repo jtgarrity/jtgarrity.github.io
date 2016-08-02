@@ -1060,6 +1060,17 @@ p {
 	text-transform: uppercase;
 	font-weight: 600;
 }
+
+/* FAQ page styling */
+
+.faq h3{
+	padding-top: 20px;
+}
+
+.faq hr{
+	margin-bottom: 60px;
+}
+
 /* terms */
 
 #postings ol {
