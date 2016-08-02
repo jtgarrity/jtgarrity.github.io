@@ -216,6 +216,12 @@ p {
 	margin-top: 17px;
 }
 
+@media (max-width: 991px){
+	.contact-img{
+		padding-top: 100px; 
+	}
+}
+
 @media (min-width: 768px) {
 	.navbar.normal .navbar-collapse {
 		text-align: center;
