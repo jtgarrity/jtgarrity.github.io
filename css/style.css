@@ -23,7 +23,7 @@ html {
 }
 
 .contact-blurb {
-padding-top: 20px;
+	padding-top: 20px;
 }
 
 .navbar .dropdown-menu {
@@ -78,13 +78,14 @@ h4,
 h5,
 h6 {
 	font-family: Helvetica Neue, Arial;
-	color: #444;
-	font-weight: 300;
+	/* color: #444; */
+	
+	font-weight: 400;
 }
 
 h2 {
 	color: Black;
-	font-weight: 300;
+	font-weight: 400;
 	font-size: 28px;
 }
 
@@ -107,6 +108,7 @@ p {
 	font-weight: 400;
 	background-color: #ff4f00;
 	/*background: rgba(0, 0, 0, 0.15);*/
+	
 	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
 	-webkit-transition: all 0.2s linear;
 	-moz-transition: all 0.2s linear;
@@ -124,7 +126,8 @@ p {
 	background-color: #fff;
 }
 
-.button-works, a.button-works {
+.button-works,
+a.button-works {
 	-webkit-font-smoothing: antialiased;
 	display: inline-block;
 	vertical-align: middle;
@@ -373,6 +376,7 @@ p {
 	text-align: left;
 	font-size: 37px;
 	/*text-transform: uppercase;*/
+	
 	font-weight: 600;
 	letter-spacing: .3px;
 	color: #FFF;
@@ -425,7 +429,6 @@ p {
 	animation-delay: 0.6s;
 	margin-top: 60px;
 }
-
 /*@media (max-width: 767px) {
 	.lead-section .cta {
 		text-align: center;
@@ -493,6 +496,14 @@ p {
 	margin-bottom: 40px;
 }
 
+.how-it-works {
+	padding: 80px 0 80px 0;
+}
+
+.get-results {
+	padding: 40px 0 80px 0;
+}
+
 .solution {
 	padding-top: 30px;
 }
@@ -507,6 +518,7 @@ p {
 	padding-bottom: 20px;
 	box-shadow: 0px 2px 2px #e1e2e1;
 }
+
 .top-padding-80 {
 	padding-top: 80px;
 }
@@ -514,6 +526,7 @@ p {
 .bottom-padding-80 {
 	padding-bottom: 80px;
 }
+
 .case-section {
 	padding: 0px 0 100px 0;
 }
@@ -528,19 +541,21 @@ p {
 
 .news-section {
 	padding: 50px 0 50px 0;
+	background: #223741;
+	color: white;
 }
 
 .news-section h5 {
 	font-size: 15px;
+	color: white;
 }
 
 .news-section p {
-	color: #888;
+	color: #cccccc;
 }
 
 .contact-section {
 	padding: 100px 0 170px 0;
-	background: #F9FAFA;
 }
 
 .contactform-intropage {
@@ -604,9 +619,6 @@ p {
 	height: 33px;
 	margin-top: -6px
 }
-/*.news-section {
-	background: #F9FAFA;
-}*/
 @media (min-width: 992px) {
 	.plugplay {
 		padding-bottom: 25%;
@@ -727,7 +739,8 @@ p {
 /* Solution Page Styles */
 
 .solution-intro {
-	padding: 80px 0 0 0;
+	padding: 40px 0 40px 0;
+	background: #F9FAFA;
 }
 #solution #tabs .header {
 	text-align: center;
@@ -764,6 +777,7 @@ p {
 	color: #ff4f00;
 	font-weight: 400;
 	border-bottom: 0px;
+	background-color: #F9FAFA;
 }
 #solution #tabs .tabs-wrapper .nav-tabs li.active a:after {
 	content: '';
@@ -1142,8 +1156,6 @@ p {
 	line-height: 23px;
 	margin-bottom: 15px;
 }
-
-
 #faq-equipment,
 #faq-process,
 #faq-controls,
@@ -1152,22 +1164,18 @@ p {
 #faq-demo,
 #faq-data,
 #faq-cost {
-    padding-top: 80px;
-    margin-top: -50px;
-    color: #FF4F00;
+	padding-top: 80px;
+	margin-top: -50px;
+	color: #FF4F00;
 }
-
 #back-to-top {
 	color: #666;
 }
-
 .team-titles {
-    color: #FF4F00;
+	color: #FF4F00;
 }
-
 .image-results {
 	width: 75%;
 	margin-left: auto;
-    margin-right: auto;
+	margin-right: auto;
 }
-
