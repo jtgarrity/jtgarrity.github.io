@@ -1,3 +1,2 @@
-# jtgarrity.github.io
-
-Tagup static landing page.
+# jtgarrity
+Personal page
