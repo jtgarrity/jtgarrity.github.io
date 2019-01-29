@@ -1,0 +1,8 @@
+{
+  "global":  {
+    "shaderName": "DiffuseNormalSpecular",
+    "normal": "models/normal.png",
+    "albedo": "models/color.png",
+    "color": [1, 1, 1, 1]
+  }
+}
